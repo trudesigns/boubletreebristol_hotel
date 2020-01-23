@@ -1,0 +1,3 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2018-02-25 06:06:10 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Request for Proposal notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Nicole Murphy ', email='nicole@connecticutwells.com', company='Cheshire High School Class of 1988 ', phone='[Not Provided]', message='I am currently in the planning stages of our 30th class reunion and I would like to know if you have any packages that would accomodate about 100 people.  We are thinking a Saturday night in July or August this summer.  Thank you!  ' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:333

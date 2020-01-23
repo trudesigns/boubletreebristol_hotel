@@ -1,0 +1,5 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2018-11-07 16:36:24 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Contact Us notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Mike', email='michael@socialpostinghouse.com', company='[Not Provided]', phone='2124498876', message='Hey there. Just wanted to offer our social media posting services for you for your Facebook, Twitter and Instagram pages. We post fresh, relevant content to your pages every day so you don't have to. <br />
+	<br />
+If that's something that you're interested in, feel free to check out our website or shoot me an email at michael@socialpostinghouse.com. Otherwise, have a nice day :)' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:177

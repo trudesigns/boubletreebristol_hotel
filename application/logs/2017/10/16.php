@@ -1,0 +1,3 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2017-10-16 11:22:58 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Request for Proposal notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Dawn Travers', email='dtravers@bristolhospital.org', company='Bristol Hospital', phone='8605853256', message='We would be interested in holding a dinner event there possibly Friday, May 11th or Saturday May 12th for Nursing Week - we hold an annual Nurse's Dinner for approx. 150 people - typically 5-10pm.  ' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:333

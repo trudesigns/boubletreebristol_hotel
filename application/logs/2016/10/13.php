@@ -1,0 +1,3 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2016-10-13 16:42:07 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Contact Us notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Vivian Newton', email='vjnewton@verizon.net', company='[Not Provided]', phone='814 726 1287', message='would like to know the status of my complete Made on Oct 8 at checkout time regarding the hot water situation haven't heard anything I do expect to be composited some how for this inconvenience. a reply would also be appreciated.Thank you Vivian Newton' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:177

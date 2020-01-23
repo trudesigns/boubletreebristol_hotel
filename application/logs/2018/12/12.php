@@ -1,0 +1,4 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2018-12-12 17:32:29 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Contact Us notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Taylor fitzgerald ', email='Taylorannfitzgerald@gmail.com', company='[Not Provided]', phone='8606040987', message='Hi!<br />
+I am getting married in Southington on 11/2/19 and would like to discuss booking a block of rooms for my guests, as well as a suite for my fiancé and myself for our wedding night and the night before. Please call or email me at your earliest convenience! ' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:177

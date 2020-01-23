@@ -1,0 +1,6 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2016-06-08 11:01:24 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Contact Us notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Karen DeVille', email='booboonushy@att.net', company='[Not Provided]', phone='8603023687', message=' I  would like to inquire about your Willows Restaurant's ability to accommodate my son with food allergies to dairy, egg and shellfish.  <br />
+I am hoping to treat my son to a graduation dinner, hope we can dialogue furhter<br />
+Thank you ' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:177
+2016-06-08 11:57:14 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Contact Us notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Simonne ', email='Simonne@bestcleaners.com', company='[Not Provided]', phone='[Not Provided]', message='Looking for any information on pricing for weddings! Thank you ' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:177

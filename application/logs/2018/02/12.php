@@ -1,0 +1,5 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2018-02-12 12:45:13 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Contact Us notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Michelle Read', email='futuremrssup@yahoo.com', company='[Not Provided]', phone='203-213-5280', message='I am getting married at the Lake House in Wolcott, CT on 9/15/18.  I am interested in reserving a room block for my wedding guests.  Can you please provide me some more information regarding pricing and other details related to a room block if you have that weekend still available.  Thank you. <br />
+<br />
+Michelle' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:177

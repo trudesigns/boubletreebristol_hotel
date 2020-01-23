@@ -1,0 +1,3 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2016-08-18 17:17:32 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Contact Us notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Dylan', email='Dylangreenwald@gmail.com', company='[Not Provided]', phone='[Not Provided]', message='Is there shuttle service to lake compounce?' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:177

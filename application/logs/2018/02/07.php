@@ -1,0 +1,3 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2018-02-07 18:03:02 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Contact Us notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='David Deas', email='david.deas527@gmail.com', company='[Not Provided]', phone='[Not Provided]', message='I would like to book 6 rooms under the  wwb block for 2/17 /18 to 2/18/18.  I would need one to be accessible wheelchair,  the others double beds.  I will also need a credit card authorization form emailed to me.' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:177

@@ -1,0 +1,3 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2016-05-25 20:06:50 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Contact Us notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Jerry Broeckert', email='jerrybroeckert@gmail.com', company='[Not Provided]', phone='6122061460', message='I am coming to town for the Holly Scanlon Foundation Golf Tourney. Would like to reserve a standard room. Check in: Thursday,  June 9; Check out: Sunday, June 12.  Code for group rate: HDB. Please confirm / advise.' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:177

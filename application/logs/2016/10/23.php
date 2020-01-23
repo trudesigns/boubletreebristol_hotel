@@ -1,0 +1,3 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2016-10-23 09:07:20 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Contact Us notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Jonathan Gollan', email='tuconn04@hotmail.com', company='[Not Provided]', phone='860-307-7710', message='I will be getting married at wood acres on april 29th 2017.  The guest list will be 100.  Wood acres informs me you have shuttle service offered. How many people will the shuttle be able to accommodate? Is the shuttle complimentary?What will the room rate be?' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:177

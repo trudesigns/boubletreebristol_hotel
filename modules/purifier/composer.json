@@ -1,0 +1,27 @@
+{
+	"name": "shadowhand/purifier",
+	"description": "XSS cleaning module for the Kohana Framework that uses HTML Purifier",
+	"keywords": ["kohana", "security", "xss", "clean", "purifier", "htmlpurifier"],
+	"homepage": "https://github.com/shadowhand/purifier",
+	"license": "BSD-3-Clause",
+	"authors": [
+		{
+			"name": "Woody Gilk",
+			"email": "woody.gilk@kohanaframework.org"
+		}
+	],
+	"support": {
+		"issues":   "https://github.com/shadowhand/purifier/issues",
+		"source":   "https://github.com/shadowhand/purifier"
+	},
+	"require": {
+		"php": ">=5.3.3",
+		"kohana/core": ">=3.3",
+		"ezyang/htmlpurifier" : ">=4.5"
+	},
+	"extra": {
+		"branch-alias": {
+			"dev-3.3/master": "3.3.x-dev"
+		}
+	}
+}

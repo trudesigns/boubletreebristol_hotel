@@ -1,0 +1,7 @@
+User-agent: *
+
+# during development, block entire site from being indexed
+Allow: /
+
+
+### new comment ###

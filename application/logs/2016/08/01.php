@@ -1,0 +1,5 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2016-08-01 18:16:58 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Contact Us notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Tyler Weston', email='rockstarseo22@gmail.com', company='[Not Provided]', phone='(802) 424-0544', message='Google has made several changes to their algorithm recently that help sites like yours to rank better.  We specialize in helping our client's sites to meet the requirements of the algorithm in order to achieve top rankings and gain a ton of traffic/sales.  I would like to offer you a free consultation to give you an analysis of where your site is now and tell you what we can do for you.  Just let me know if you're interested and we can schedule a time to speak.  <br />
+Thank you<br />
+Tyler Weston' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:177

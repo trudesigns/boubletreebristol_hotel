@@ -1,0 +1,3 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2017-06-27 20:36:29 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Request for Proposal notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='rhonda thomas', email='randi_246@yahoo.com', company='Mills family reunion', phone='516-451-2033', message='50 to 75 family members who will need hotel accommodations for july 28, 2017 to july 30, 2017.   I am also looking to keep the group together as much as possible.    looking forward to speaking with someone soon. thank you' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:333

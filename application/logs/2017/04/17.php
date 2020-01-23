@@ -1,0 +1,6 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2017-04-17 19:29:58 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Request for Proposal notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Rodney Valdes', email='pianopraiseproductions@gmail.com', company='[Not Provided]', phone='8603292210', message='My wife and I are in the process of celebrating our 10 yr anniversary/renewal of vowels.  We are specifically interested in your facility for our reception.   Please feel free in calling me at any time, or send the information via email.  I thank you in advance.  <br />
+<br />
+The date for the venue will be Saturday, November 18th,  2017' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:333
+2017-04-17 20:45:53 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Contact Us notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Thomas and Amy Stearns', email='astearns2005@yahoo.com', company='[Not Provided]', phone='3157648402', message='Booking for DiNipoli Waterhouse Wedding' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:177

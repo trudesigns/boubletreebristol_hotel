@@ -1,0 +1,3 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2018-07-22 22:28:18 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Contact Us notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Tamar Y Serrano', email='serranotamar@gmail.com', company='Wedding reception', phone='8609381331', message='Wedding date April 6, 2019 but we are flexible.' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:177

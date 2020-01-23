@@ -1,0 +1,3 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2016-08-21 18:07:27 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Contact Us notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Nicolas Fedrizzi', email='nicolas.m.fedrizzi@espn.com', company='ESPN', phone='[Not Provided]', message='Hello, my girlfriend will be in the hotel tomorrow morning. His name is Romina Paula De Nichilo. Tomorrow is his birthday. Could you put in his room something special. Flowers, or a basket with something to eat. I can give you my credit card to pay that! Thanks, Nico.' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:177

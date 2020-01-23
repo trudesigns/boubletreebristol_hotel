@@ -1,0 +1,6 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2017-06-05 12:10:51 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Contact Us notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Cynthia Geary', email='cynthia.j.geary@espn.com', company='ESPN', phone='860-766-4320', message='Trying to make a reservation for a guest coming in on June 19th.<br />
+Please call me at 860-766-4320' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:177
+2017-06-05 21:48:37 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Contact Us notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Heather Everett', email='heathere011@gmail.com', company='[Not Provided]', phone='(201) 503-4744', message='Forgive me for reaching out through your contact form, but I'd just like to ask if you're interested in optimizing your site to get more traffic from the search engines like Google and Bing.  I provide optimization services for fair prices.  If you're interested, please let me know.  Thank you,<br />
+Heather Everett' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:177

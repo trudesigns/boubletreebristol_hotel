@@ -1,0 +1,5 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2018-03-30 09:28:32 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Contact Us notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Alan Ready', email='alan.readyjr@ynhh.org', company='Bristol Hospital', phone='2038858049', message='We are your local hospital and looking for corporate rates for our guest. Already have a significant amount of spend . Can you please put me in contact with someone to discuss ability to set up an corporate account.<br />
+' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:177
+2018-03-30 11:56:59 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Request for Proposal notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='AL', email='atoyota74@yahoo.com', company='N/A', phone='8608699317', message='FAMILY BREKFASTCATERED GROUP 18 PEOPLE' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:333

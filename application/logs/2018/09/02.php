@@ -1,0 +1,3 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2018-09-02 21:51:32 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Contact Us notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Sara Cocivi', email='sara.cocivi@gmail.com', company='Scott Mayernick', phone='2033126664', message='I would like information for room blocks for a wedding party and guests in October 2020.  Thank you!' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:177

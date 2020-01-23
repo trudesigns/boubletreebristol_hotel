@@ -1,0 +1,3 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2017-01-21 09:46:18 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Contact Us notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Deb Dickmann', email='scorpio110250@yahoo.com', company='[Not Provided]', phone='603-989-8002', message='Can you send me information on your senior/advance booking/AAA membership discounts.  We are planning a 50th class reunion in June 2018 and trying to get some information.  Thanks' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:177

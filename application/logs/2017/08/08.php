@@ -1,0 +1,11 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2017-08-08 15:12:40 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Contact Us notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Carlie bemis', email='carlieb96@gmail.com', company='[Not Provided]', phone='8606082782', message='I am looking to have a wedding consisting of approximately 70 people.  Our two possible choices for dates are the last saturday in April of 2018, or may 12th of 2018.If you could please email me a list of pricing  and any fees for that amount of people, it would be greatly appreciated. Thank you.' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:177
+2017-08-08 19:16:30 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Contact Us notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Ed Frez', email='edingershock362@gmail.com', company='[Not Provided]', phone='(681) 238-9272', message='I wanted to reach out and give you my best business proposition.  I design truly amazing looking websites for small businesses and would love to have a chance to show you some of my work and see if you'd be interested in having your site redesigned.  I specialize in the wordpress website platform (I can tell you more about it if you're not familiar with it), but I'm also very good with many other platforms and shopping carts as well.  I can upgrade your existing website or build you a new one completely that has all of the modern features and functionality.  If you're not familiar with these new features, then I'm really excited to speak with you and show you what a modern website can do.   <br />
+<br />
+Do you have some free time within the next few days for a quick call?  We can discuss some of my ideas for the site and then I can get your feedback and give you a proposal. I'd really like to be of assistance and make the site better.  <br />
+<br />
+I'll look forward to speaking with you,<br />
+<br />
+Thanks,<br />
+Edward Frez' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:177

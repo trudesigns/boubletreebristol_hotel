@@ -1,0 +1,6 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2016-08-11 16:11:18 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Contact Us notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Michael N Evanchan', email='michael.evanchan@espn.com', company='[Not Provided]', phone='6465474961', message='I need a receipt for my stay at the Doubletree on Monday July 25, 2016<br />
+<br />
+Thanks' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:177
+2016-08-11 16:48:23 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Contact Us notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Lori Latosh', email='llatosh@trammellcrow.com', company='Trammell Crow Company', phone='4845304692', message='I need to book 3 rooms for this coming Tuesday, August 16th. Thank you' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:177

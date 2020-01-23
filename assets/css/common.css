@@ -1,0 +1,99 @@
+/*---------------------------------------------------
+    LESS Elements 0.9
+  ---------------------------------------------------
+    A set of useful LESS mixins
+    More info at: http://lesselements.com
+  ---------------------------------------------------*/
+/*
+TIP make sure to create a throw away variable with params and the pass that variable as the arguments for .box-shadow
+@shadow:inset 2px 2px 5px #000, 2px 2px 5px #000;
+.box-shadow(@shadow);
+*/
+/*@bootstrap-success:#3c763d;
+@bootstrap-error:#a94442;
+@yb-purple:#945dbd;
+@yb-purple-on:#694c9b;
+@offwhite:#f3f3f3;
+@metalic_blue:#336699;
+@salmon:#fadad7;
+@light_yellow:#FFA;
+@white:#fff;
+@black:#000;
+@offgreen:#eaf2c2;
+@green:#406619;
+@beige:#F7EAAF;
+@yellow:#F8DC5C;
+@main-color:#F3F3F3;
+@red:#b30000;
+@purple:#543092;
+@header_start:#694c9b;
+@header_end:#543092;
+@green_text:#00a950;
+@green_text_visited:#89d4ad;
+
+@border_color:#dfdfdf;
+@dark_grey:#666;
+@menu-over:#353535;
+@menu-border:#828282;
+@link_color:#945dbd;
+@link_color_on:#694c9b;
+@grey:#e5e5e5;*/
+.bottom_radius {
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+/*
+.yb-header-background{
+    background: @purple;  Old browsers 
+	 IE9 SVG, needs conditional override of 'filter' to 'none' 
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzY5NGM5YiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM1NDMwOTIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top, @header_start 0%, @header_end 100%);  FF3.6+ 
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,@header_start), color-stop(100%,@header_end));  Chrome,Safari4+ 
+	background: -webkit-linear-gradient(top, @header_start 0%,@header_end 100%);  Chrome10+,Safari5.1+ 
+	background: -o-linear-gradient(top, @header_start 0%,@header_end 100%);  Opera 11.10+ 
+	background: -ms-linear-gradient(top, @header_start 0%,@header_end 100%);  IE10+ 
+	background: linear-gradient(to bottom, @header_start 0%,@header_end 100%);  W3C 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=@header_start, endColorstr=@header_end,GradientType=0 );  IE6-8 
+	
+}*/
+/* .dataTables_wrapper .dataTables_paginate .paginate_button{
+            padding:0;
+            &:hover{
+                .gradient(@white,@white,@white);
+                border:1px solid @white;;
+                
+            }
+            &.active{
+                
+                a{
+                    background-color:@green_text;
+                    color:@white;
+                }
+            }
+            a{
+                color:@green_text;
+                
+            }
+        }
+
+
+
+.dataTables_paginate{
+    .pagination{
+        >.active{
+                a{
+                     border-color:transparent;
+                     
+                 }
+        }
+        a{
+            &:hover{
+                         font-weight:normal;
+                     }
+        }
+    }
+}*/
+#wrapper {
+  width: 1200px;
+  margin: 20px auto 0;
+}

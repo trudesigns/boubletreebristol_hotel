@@ -1,0 +1,12 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2017-08-10 07:28:27 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Contact Us notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='David Bishof', email='david.bishof@ffic.com', company='[Not Provided]', phone='908-300-8679', message='Hi,<br />
+Looking to make reservation for over night stay on 8/23.<br />
+Arriving 8/23. Checkout 8/24<br />
+Thank you<br />
+Sincerely,<br />
+David Bishof' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:177
+2017-08-10 10:47:39 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Request for Proposal notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Jennifer Meredith', email='treasurer@trinitychurch.life', company='Trinity Church - Greenwich CT', phone='203-552-6869', message='We hold an annual Women's Retreat for the women of our church. Generally, we have about 100-120 women attend. We usually need 50-60 sleeping rooms made up of Double and Single occupancy. (Do you do Triple or Quad occupancy?) The event this year is scheduled for Friday, January 19, 2018 - Sunday, January 21, 2018. We arrive the Friday evening. We would need breakfast, lunch and dinner on Saturday and breakfast on Sunday. We also need a meeting space, a dining space, and some breakout space.<br />
+I am happy to talk further with you about our needs and what DoubleTree Bristol can offer!' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:333
+2017-08-10 16:19:22 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Contact Us notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Pettry Gaylor', email='pettrygaylor572@gmail.com', company='[Not Provided]', phone='(520) 485-9738', message='Hi there, how are you?  I'm reaching out because I'm a website design professional looking for new clients.  I was wondering if you're interested in building a new site or redesigning your current site?  I'd like to speak with you and tell you what I would do.  Let me know if you're interested in a quick consultation.  Thank you for your time.  <br />
+Pettry Gaylor' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:177

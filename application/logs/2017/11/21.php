@@ -1,0 +1,3 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2017-11-21 14:34:33 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Contact Us notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Matt Orlando', email='mattorlando1011@hotmail.com', company='[Not Provided]', phone='2039273242', message='Who can I contact about playing live music for your company?' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:177

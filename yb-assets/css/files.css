@@ -1,0 +1,19 @@
+
+.loading-container {
+	font-size:3em;
+	color:#CCC;
+	text-align:center;
+	position:relative;
+	z-index:10;
+}
+
+#ckfinder-inline {
+	position:relative;
+	z-index:11;
+	border:0 none;
+	height:600px;
+	width:100%;
+	margin-top:-54px;
+	margin-bottom:50px;	
+}
+	

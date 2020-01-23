@@ -1,0 +1,5 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2016-08-20 19:35:47 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Contact Us notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Sterling Chambers', email='webdesignerzroyal@gmail.com', company='[Not Provided]', phone='(701) 484-1858', message='I wanted to reach out and ask if you were interested in upgrading or redesigning your website.  I am a very skilled web designer with various abilities and can create just about anything that you can come up with.  Please let me know what you're looking to do with the website and I can give you a proposal on getting it done.  <br />
+Kind regards, <br />
+Sterling Chambers' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:177

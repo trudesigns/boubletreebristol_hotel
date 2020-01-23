@@ -1,0 +1,3 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2017-04-19 08:06:29 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Request for Proposal notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Stefanie Roth', email='sroth@prohealthmd.com', company='ProHealth Physicians', phone='860-284-5349', message='25 person Regional Physician meeting on 5/16, 5/30 or 6/1 including dinner.  Minor AV requirements.  Please let me know if your space is available.  Thank you!' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:333

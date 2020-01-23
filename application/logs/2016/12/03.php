@@ -1,0 +1,23 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2016-12-03 17:47:53 --- EMERGENCY: Database_Exception [ 1064 ]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'caption.linkHref   '' AND parent_id = (SELECT id FROM pages WHERE slug = 'photob' at line 1 [ SELECT * FROM pages WHERE   slug = ''   caption.linkHref   '' AND parent_id = (SELECT id FROM pages WHERE slug = 'photobox'  AND parent_id = (SELECT id FROM pages WHERE slug = 'plugins'  AND parent_id = (SELECT id FROM pages WHERE slug = 'assets' AND parent_id = 0 ))) ] ~ MODPATH/database/classes/Kohana/Database/MySQL.php [ 194 ] in /var/www/html/doubletreebristol.prod01.pita.website/modules/database/classes/Kohana/Database/Query.php:251
+2016-12-03 17:47:53 --- DEBUG: #0 /var/www/html/doubletreebristol.prod01.pita.website/modules/database/classes/Kohana/Database/Query.php(251): Kohana_Database_MySQL->query(1, 'SELECT * FROM p...', true, Array)
+#1 /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Model/Page.php(176): Kohana_Database_Query->execute()
+#2 /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Setup.php(47): Model_Page->getPagefromURL('assets/plugins/...')
+#3 /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Setup.php(140): Controller_Setup->getPage()
+#4 /var/www/html/doubletreebristol.prod01.pita.website/system/classes/Kohana/Controller.php(69): Controller_Setup->before()
+#5 [internal function]: Kohana_Controller->execute()
+#6 /var/www/html/doubletreebristol.prod01.pita.website/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Default))
+#7 /var/www/html/doubletreebristol.prod01.pita.website/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#8 /var/www/html/doubletreebristol.prod01.pita.website/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#9 /var/www/html/doubletreebristol.prod01.pita.website/index.php(118): Kohana_Request->execute()
+#10 {main} in /var/www/html/doubletreebristol.prod01.pita.website/modules/database/classes/Kohana/Database/Query.php:251
+2016-12-03 21:36:57 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Contact Us notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Regina Fonohema', email='Horsley61102@gmail.com', company='[Not Provided]', phone='[Not Provided]', message='Hello,<br />
+I want to introduce the Website Reviewer is an incredibly useful tool for those who are involved in SEO and web designing. This particular tool will provide you with quick website review and SEO audit of the websites you’ve created so you will be able to determine if and where any changes should be made so you can make it as effective as possible when it comes to getting visitors and keeping them interested. Unlike many similar tools, website reviewer is completely free. When you use this tool you will discover just how user-friendly your website really is, as this is one of the more important factors to consider.<br />
+May I kindly ask you if you take a try and analyze your website there? It is totally free. http://elkseo.com/website-reviewer/theoaksballroom.com <br />
+Thanks For Your Time.' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:177
+2016-12-03 21:44:37 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Contact Us notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Tyler Webb', email='seriousdesign1@gmail.com', company='[Not Provided]', phone='354-478-8853', message='Forgive me for reaching out through your contact form, but I thought it would be less intrusive than cold calling.  I am a very skilled web developer that is looking for new projects/clients.  I was just on your site and it's a nice site, but it could be amazing.  I would really like to help you with it.  Are you interested in redesigning the site or adding some features?  I have a lot of ideas I'd like to share with you.    <br />
+<br />
+Let me know if you're interested in speaking and hearing some of my ideas as well as getting a proposal.  I'd really love to help with your site.  Hope to hear from you soon.  Thanks!<br />
+<br />
+Tyler Webb' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:177

@@ -1,0 +1,8 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2017-04-18 00:54:12 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Contact Us notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Gilberto Gonzalez', email='gilbertogonzalezv@hotmail.com', company='ESPN', phone='[Not Provided]', message='Hello I have a reservation to my name for Saturday 22. I wanted to confirm the amount of the same under the rate of ESPN and know if it could be a room for two adults and a child of 10 years.<br />
+Thank you!' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:177
+2017-04-18 16:04:09 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Request for Proposal notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Cara Parsons', email='cparsons@ct.org', company='Connecticut Technology Council', phone='860-289-0878', message='College Tech Challenge Event. 30 to 40 table top displays in main ballroom for Job fair, need 4-6 smaller breakout rooms 2 rooms for final challenge needs wifi and extra power.  2-3 smaller rooms for interviewing. Total event time starts at 10am - 4pm.<br />
+We are looking for the dates of Thursday, November 9th; Thursday, November 16th or Friday, November 17th.<br />
+<br />
+Call me with questions.  860-289-0878 ext. 344' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:333

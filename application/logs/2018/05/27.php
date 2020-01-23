@@ -1,0 +1,3 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2018-05-27 22:29:05 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Request for Proposal notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Gabrielle Salls', email='gabbysalls@yahoo.com', company='Kappa Chi Alpha Sorority', phone='8606379285', message='Sorority Formal to celebrate 30 year anniversary ' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:333

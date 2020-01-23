@@ -1,0 +1,3 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2018-01-27 12:44:53 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Request for Proposal notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Summer Hulse', email='summerhulse@yahoo.com', company='[Not Provided]', phone='2034437725', message='I was interested in booking a block of rooms for my wedding. I'm getting married at Wood Acre Farms on 10/12/18. I'm also interested in the shuttle service you offer. Thank you for your time!' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:333

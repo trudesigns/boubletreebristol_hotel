@@ -1,0 +1,5 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2017-07-01 17:36:46 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Contact Us notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Dianne murphy', email='Gnomes@sympatico.ca', company='[Not Provided]', phone='905-892-3722', message='Hi there<br />
+I am trying to book for the Cornett Whalen wedding in October. The 1800 # given (18007747500) does not work. I tried calling your direct line and it only circled me around to voice recordings no matter which extension I requested ( reservations and guest services). Please call me at 9058923722 so that I can book. Thank you.<br />
+Dianne' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:177

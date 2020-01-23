@@ -1,0 +1,3 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2018-02-24 14:19:43 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Contact Us notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Katherine  Donahue', email='Kat.donahue@aol.com', company='[Not Provided]', phone='2035601614', message='Hello, I was just looking for some information on renting out a ball room. I am throwing a ball for my senior class. There would be roughly 100 people attending and we have a budget of 4000 dollars. Thank you' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:177

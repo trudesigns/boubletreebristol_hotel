@@ -1,0 +1,3 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2017-03-08 13:04:34 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Request for Proposal notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Brehn Etheredge ', email='bae_117@yahoo.com', company='[Not Provided]', phone='214-460-4917', message='We would like to get a quote for a dinner party event at your hotel for 30 guests on October 12th.  Something that is buffet style. 10 to 14 of these guests will be guest of the hotel for that night through the end of the weekend.  ' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:333

@@ -1,0 +1,206 @@
+.bottom_radius {
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+/*---------------------------------------------------
+    LESS Elements 0.9
+  ---------------------------------------------------
+    A set of useful LESS mixins
+    More info at: http://lesselements.com
+  ---------------------------------------------------*/
+/*
+TIP make sure to create a throw away variable with params and the pass that variable as the arguments for .box-shadow
+@shadow:inset 2px 2px 5px #000, 2px 2px 5px #000;
+.box-shadow(@shadow);
+*/
+article#news.list #dt-filters {
+  font-size: 0;
+  width: 350px;
+}
+article#news.list #dt-filters > aside {
+  width: 49.5%;
+  display: inline-block;
+}
+article#news.list #dt-filters > aside:first-child {
+  margin-right: 1%;
+}
+article#news.list .modal-body ul {
+  list-style: none;
+  padding-left: 5px;
+}
+article#news.list .dataTables_wrapper {
+  margin-top: 5px;
+}
+article#news.form .chosen-choices {
+  height: 32px !important;
+}
+article#news.form .chosen-choices .search-field input {
+  padding-left: 10px;
+}
+#form-content #sortable {
+  list-style: none;
+  padding: 0;
+}
+#form-content #sortable.slider-content {
+  margin: 0;
+}
+#form-content #sortable.slider-content .remove-item {
+  right: 30px;
+}
+#form-content #sortable.slider-content .ui-state-highlight {
+  height: 367px;
+  margin-bottom: 20px;
+}
+@media only screen and (min-width : 993px) and (max-width : 1223px) {
+  #form-content #sortable.slider-content .ui-state-highlight {
+    height: 220px;
+  }
+}
+@media only screen and (min-width : 768px) and (max-width : 992px) {
+  #form-content #sortable.slider-content .ui-state-highlight {
+    height: 200px;
+  }
+}
+@media only screen and (max-width:767px) {
+  #form-content #sortable.slider-content .ui-state-highlight {
+    height: 150px;
+  }
+}
+#form-content #sortable.slider-content textarea {
+  width: 100%;
+  max-width: 380px;
+}
+#form-content #sortable.callouts-content {
+  margin: 0 20px 0 0;
+}
+#form-content #sortable.callouts-content .remove-item {
+  right: -52px;
+}
+#form-content #sortable.callouts-content .ui-state-highlight {
+  height: 147px;
+  margin-bottom: 20px;
+}
+@media only screen and (min-width : 993px) and (max-width : 1223px) {
+  #form-content #sortable.callouts-content .ui-state-highlight {
+    height: 137px;
+  }
+}
+@media only screen and (min-width : 768px) and (max-width : 992px) {
+  #form-content #sortable.callouts-content .ui-state-highlight {
+    height: 137px;
+  }
+}
+@media only screen and (max-width:767px) {
+  #form-content #sortable.callouts-content .ui-state-highlight {
+    height: 137px;
+  }
+}
+#form-content #sortable.callouts-content textarea {
+  max-width: 370px;
+}
+#form-content #sortable .slide,
+#form-content #sortable .callout {
+  margin-bottom: 20px;
+  border: 1px solid #945dbd;
+  padding: 10px;
+  -webkit-border-top-right-radius: 5px;
+  -webkit-border-bottom-right-radius: 0;
+  -webkit-border-bottom-left-radius: 0;
+  -webkit-border-top-left-radius: 0;
+  -moz-border-radius-topright: 5px;
+  -moz-border-radius-bottomright: 0;
+  -moz-border-radius-bottomleft: 0;
+  -moz-border-radius-topleft: 0;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  -moz-background-clip: padding-box;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  position: relative;
+  max-height: 355px;
+}
+#form-content #sortable .slide .slide-content .action,
+#form-content #sortable .callout .slide-content .action,
+#form-content #sortable .slide .callout-content .action,
+#form-content #sortable .callout .callout-content .action {
+  margin: 10px -15px;
+}
+#form-content #sortable .slide .slide-content textarea,
+#form-content #sortable .callout .slide-content textarea,
+#form-content #sortable .slide .callout-content textarea,
+#form-content #sortable .callout .callout-content textarea {
+  min-height: 100px;
+}
+#form-content #sortable .slide .draggable,
+#form-content #sortable .callout .draggable {
+  width: 40px;
+  height: 39px;
+}
+#form-content #sortable .slide .draggable span,
+#form-content #sortable .callout .draggable span {
+  color: #3c763d;
+  font-size: 28px;
+  left: -7px;
+}
+#form-content #sortable .slide .remove-item,
+#form-content #sortable .callout .remove-item {
+  width: 40px;
+}
+#form-content #sortable .slide .remove-item span,
+#form-content #sortable .callout .remove-item span {
+  font-size: 30px;
+  color: #a94442;
+  top: 4px;
+}
+#form-content #sortable .slide img,
+#form-content #sortable .callout img {
+  margin: 10px 0;
+}
+#form-content #sortable .slide .link-selector,
+#form-content #sortable .callout .link-selector {
+  margin: 10px 0;
+}
+#form-content #sortable .slide .btn,
+#form-content #sortable .callout .btn {
+  z-index: 2;
+}
+#form-content #sortable .slide img {
+  max-height: 260px;
+}
+#form-content #sortable .callout img {
+  max-height: 300px;
+}
+#form-content #sortable li {
+  float: none;
+  display: inline-block;
+  width: 100%;
+}
+#form-content #slide-form #preview-image,
+#form-content #callout-form #preview-image,
+#form-content #special-form #preview-image,
+#form-content #square-form #preview-image {
+  margin: 10px 0;
+  max-width: 250px;
+}
+/*
+.ui-sortable-handle{
+    &:after{
+      content: "\f0c9";
+    display: inline-block;
+    font-family: "FontAwesome";
+    position: absolute;
+    right: 18px;
+    top: 9px;
+    text-align: center;
+    line-height: 35px;
+    color: rgba(255,255,255,.2);
+    text-shadow: 0px 0px 0px rgba(0,0,0,0);
+    cursor: move;  
+    }
+}
+.ui-state-highlight{
+    position:relative;
+}*/
+/*# sourceMappingURL=doubletree.css.map */

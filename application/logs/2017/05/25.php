@@ -1,0 +1,3 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2017-05-25 22:56:18 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Contact Us notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Tracy Boyle ', email='tracy.boyle2@gmail.com', company='[Not Provided]', phone='19738867973', message='Is your hotel dog friendly? I have a French Bulldog 20lbs who is a service / ES dog. Let me know as I have an upcoming reservation. ' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:177

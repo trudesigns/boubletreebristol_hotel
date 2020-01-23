@@ -1,0 +1,282 @@
+=== Yellow Brick CMS Changelog ===
+
+============
+Version 1.9
+
+- PHP 5.5 conversion
+-with
+
+============
+Version 1.8
+
+07.02.14
+- Prior revisions which were "Previously Published" could not be published again. Applied a fix for the revision system in /application/classes/model/content.php. 
+
+06.26.14
+- Updated /ckfinder/config.php to check for secure port and re-write the path using https://
+- Updated /application/views/yellowbrick/pages/ckeditor_links.php and fixed jquery resource path and commented out Select2 plugin due to problem with it showing dropdowns upwards - thus making them partially unusable.
+
+06.23.14
+- Changed /ckfinder/config.php line ~358 ($config['ForceAscii']) set to "true". Also updated /ckfinder/core/connector/php/php5/Utils/FileSystem.php lines ~270 and ~296 and added ' ' => '_' to the array of replacements. This will rewrite all filesnames which contain spaces to underscores as part of the upload process. Based on tips from:
+http://ckeditor.com/forums/Support/Avoiding-spaces-file-names-when-uploading-PHP-Solution
+
+============
+Version 1.7
+
+06.12.14
+- Added invisible "honey-trap" field to the CMS user registration form and user controller's processing logic. Spam/bot prevention.
+
+06.09.14 
+- Fixed a Pages > Page Properties (Page Model) bug where non-developers were receiving a template selection permissions error message on Save even if they did not change the template.
+
+05.20.14
+- Add "Checkout" page tool with support for the Stripe.com payment gateway
+ -- vendor/stripe PHP library
+ -- config/strip  Configuration file
+ -- views/yellowbrick/custom-pages/checkouts.php (admin view to view all transactions)
+ -- views/pages/checkout.php (sample, simple checkout page)
+ -- classes/models/stripe.php
+ 
+- updated admin/request addMenuPages() function to set all page targets as "_self" to validate echoed HTML when menu is drawn
+- updated /yb-assets/css/ckeditor.css so that headings, lists and tables behave somewhat normally and are excluded from the reset.
+- updated /ckeditor/config.js to revise editor toolbar buttons and positions. Also added config declarations for spellchecking support
+
+05.13.14
+- fixed pages model draw_menu_UL() bug that was suppressing pages children with greater than 2 levels deep
+
+04.21.14
+- Overhauled Page Template system to allow for "Shell," "Layout," and "Page" views combined into a single "template" 
+- Updated Template's CRUD tool accordingly
+- Fixed menu builder bugs (related to deleting a page but not re-publishing the menu and "menu has changed" message appearing when it had not changed)
+
+04.17.14
+- Updated ckeditor/config.js so that standard toolbar includes justification buttons.
+
+04.14.14
+- Changed default code placed into Developer > Blocks app which tells CKeditor to ignore the new ACF (Advanced Content Filter) which was causing problems for code snippets from 3rd party vendors.
+- Updated .htaccess file with examples for www vs. non-www redirection in commented out lines
+
+
+============
+Version 1.6
+
+04.11.14
+- Updated /ckeditor/config.js file to all for stylesSet.add() functionality with AJAX loading of multiple instances
+- Updated Model_Menu->drawMenu() function to better interact with Model_Pages() functionality
+- Updated Model_Pages->drawMenu_UL() function and breadcrumbs function to better dynamically output menus with classes that reflect the user's current navigation on site
+
+04.07.14
+- Updated getAbsoluteParent() function in page model to optionally return full array of page data
+
+03.26.14
+
+- Added phpMailer class to new "vendor" folder in /application
+- Added /config/smtp.php - default to use mandrillapp.com for transactional emails.
+- Updated /models/tools/mail() function to check to use phpMailer class and check for SMTP configuration
+
+03.20.14
+
+- Updated setup controller and main outer template to ensure that the "meta_title" block gets displayed properly.
+
+02.04.14
+
+- Ported Forms read/update application from cwhf.org. 
+- Included functions and features of the Forms application but commented out links to the tool so they don't show up automatically
+- Added new role for forms
+- Updated db_sql.txt file to reflect new tables
+
+============
+Version 1.5.5
+
+01.23.14
+
+- Updated model Tools -> sendEmail, and model Tools -> trimValue to account for arrays of data in $posted values.
+- Added a random time string to the deleleUser function username field within admin/request controller so that future username registrations with the same name won't conflict if they are deleted too.
+- Altered database:users table - set email and username columns to VARCHAR (255). Updated installation SQL file to reflect changes.
+
+01.22.14
+
+- Bug fixes 
+- - Corrected Slug checker validation which was missing parent_id value
+
+- Updated Developer > Content Blocks, Selection > WYSIWYG editor JS so it pre-populates with the latest ckEditor initialization code
+
+===========
+Version 1.5
+
+01.17.13
+- Working Menu Builder Tool
+
+01.15.14
+- Bug fixes to "Edit Page Properties" dialog box in page manager
+- Updates to YB main nav to indicate if a given page is inactive, has time parameters or requires login
+- Fixed main nav not showing inactive pages
+- Bug fix to dashboard "Recently edited content" to include content blocks modifed by another user after current user last saved
+
+
+===========
+Version 1.4
+
+
+12.17.13
+
+- Bug fixes to Yellowbrick main nav
+- Replaced CKEditor with latest version (4.3.1) to help solve IE 11 compatibility issues
+- Updated Developer > Content Blocks > Main Content to include extraAllowedContent (<embed>) for CKEditor and also allow resizing of the editor instance
+
+===========
+Version 1.3
+
+11.26.13
+
+- Corrected several inconsistancies between recent development on Yellowbrick and the database sql file.
+
+11.14.13
+
+- Re-organized asset files for Yellowbrick into their own root folder: /yb-assets/, modified numerous files to update paths
+- Fixed minor JS error thrown in IE on user's tool related to apostrophes in user first or last name fields
+
+11.13.13
+
+- Added Menu Setup developer tool
+- Modified Users page: moved roles into a toggle-able dropdown menu
+
+
+=========
+Version 1.2
+
+10.3.13
+
+- Styling modifications for edit page and dashboard and main navigation
+- Fixed a bug with tooltips not displaying in the page editing screen due to AJAX content
+
+10.2.13
+- Fixed user view pathing to account for new folder structure.
+
+10.1.13
+
+- Added sitemap page and began to implement an XML-based version that matches the sitemap protocol schema for search engine optimization.
+
+9.30.13
+- Implemented scheme for outer template, inner templates and final view page files.
+- Re-organized files for admin and public-facing code into new folders within /views/ folder
+- Modified public default controller to follow both changes
+
+=========
+Version 1.1.4
+
+09.27.13
+- fixed bug in models/content that threw error when saving a draft without changes
+- fixed bug in js/admin/edit failed to trigger warning when content changed/saved by another user
+
+09.17.13
+- Re-included Captcha controller and model files
+- Added example Contact Us form code to /views/templates/forms/
+- Added example Contact Us form processing/validation code to custom controller
+- Updated Tools model with new static function for trimming whitespace off of input values
+- Added example Contact Us error messages file to /application/messages/forms/
+
+=========
+Version 1.1.3
+
+09.12.13
+- Modified /js/admin/pages.js to auto-open page manager popup if URL has a #ID
+
+09.06.13
+- Modified setup.php to override $page->active setting when an authorized users is previewing a revision draft
+-- POSSIBLE BREAKING CHANGE: Updated Pages Model-> getPagefromURL() to no longer return false if a selected page is marked as inactive.  Function now returns the page data of inactive page.
+
+- updated /views/admin/ckeditor_links.php to use select2 dynamic dropdown fed by ajax instead of the <ul> based site map
+- updated /js/admin/admin.js with new function that draws a sitemap in the select menu returns a custom callback function
+
+09.05.13
+- Updated /assets/js/functions.js's dateFormat() function to include 'g', 'h' and 'y' formats for 2-digit years and 12-hour hours
+- Overhauled /views/admin/diff to compare content revisions
+-- Updated /classes/admin/request to facilitate diff. Added "allRevision()" function.
+
+08.28.13
+- Updated getPages() method in the Pages Model to now return FALSE if there are no pages to return.
+
+=========
+Version 1.1.2
+
+08.27.13
+- Updated Content Model: moved content finding and saving logic out of the controller
+-- updated admin/default controller's action_edit() page to load and save content using model
+-- added similar functionality to the admin/request controller so the editor can be loaded via AJAX
+-- created a new admin view called "editor" which contains the most of the code from the old "edit" view which is now just a wrapper, allowing the content to be ajaxed in
+
+08.23.13
+- Updated Page manager with new "Move Page" manual process for moving and reordering pages without drag & drop
+- Added "select2" plugin to the /assets/js and /assets/css for stylized <select> menus.
+- Update "content," "contenblocks," "contentversions," & "page" models to use the ORM relational mapping eg: has_many/belongs_to
+- Updated dashboard view to show "my recently edited content"
+- Added sample feed tool example called at  /admin/blog to show how to link a page to a feed
+-- Updated /admin/custom controller to manage "blog" example feed tool
+-- Added Models for new feed tool tables: "feeds," "feed_articles," "feed_categories," & "feed_category_articles"
+
+
+08.21.13
+- Replaced the entire /ckeditor directory with new files (version 4.2)
+-- Added some standard configuration items and style override examples to /ckeditor/config.js
+-- Hacked the Link dialog box to include the local site link option again
+-- UI changes for editor buttons which are now in color instead of monotone
+
+Note: alternate versions of the editor toolbar seen in config.js don't appear to work properly anymore
+
+- Updated /views/admin/ckeditor_links.php to use new drawMenu_UL() parameters correctly
+
+=========
+Version 1.1.1
+
+08.20.13
+- Updated Bootstrap to make "/admin" calls default to the "admin/custom" controller which now extends the "admin/default" controller
+
+- Added `start_date` and `end_date` columns to the `pages` table so pages can have a queue to launch and expirations
+-- Updated Model_Content->search() function to account for new start/end date functionality
+-- Updated default controller to account new start/end date functionality.
+-- Updated Page Manager tool to allow updating of start date and end date for given page
+
+- Updates to Model_Pages 
+-- Modified getPages() and add_or_update() functions to reflect new start/end date functionality of pages
+-- add_or_update() now allows boilerplate content to be assigned when creating a new page
+-- new function, generateSlug(), for converting string into SEO friendly URL path
+
+- Added unstyled default search view to tier_pages folder
+
+=========
+Vesion 1.1
+
+08.08.13
+- Major overhaul to the Page management tool -Micah's v2.0
+-- AJAX calls update the database with changes while the DOM is updated to reflect them
+-- Implemented nestable.jquery plugin for drag and drop sorting, collapse/expand all functions
+
+- Re-organization of primary admin functions in /controller/admin/default.php
+
+- Added a new delete process for CRUD() function in /controller/admin/default.php
+-- Relies on a hidden field in views/redirects.php form 
+-- Applies to action_redirects() only right now
+
+- Added /model/tools.php w/ sendEmail() function
+
+- Updated almost all view files
+-- Cleanup/removal of most old and commented-out code
+-- Layout fixes in /views/
+-- Implemented Yellow Brick styling as much as possible, tweaked style of yb-buttons a little
+-- Added chosen.jquery plugin to most primary <select> elements 
+-- Moved all javascript code into individual files based on view name, organized into /assets/js/admin
+-- Moved all CSS code into individual files based on view name, organized into /assets/css/admin
+
+- Organization and cleanup of various asset files as needed
+
+- Regenerated the custom jQuery UI 1.9.2 theme via themeroller to improve usability and align with Yellow Brick styles better
+
+
+=========
+Version 1.0
+
+06.20.13
+- Migrated Lafah materials and upgrades implemented in riverfront.org
+- Install folder contains .sql table creation file -NO LONGER IN USE. See yellowbrick.thepitagroup.com documentation.
+- See yellowbrick.thepitagroup.com for complete install instructions

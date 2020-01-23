@@ -1,0 +1,7 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2016-09-15 10:27:44 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Request for Proposal notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Mindy Stewart', email='mindy@cmpinc.net', company='Capital Meeting Planning, Inc.', phone='703-942-8330', message='Wednesday, October 26, 2016<br />
+Federal Government/Community Coalition One-Day Town Hall<br />
+100 - 140 attendees<br />
+Courtesy Block of Government Rate Sleeping Rooms' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:333
+2016-09-15 10:52:43 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Contact Us notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Ny-Asia Anderson', email='asiaandersom93@gmail.com', company='Beauty By Ny', phone='8603487709', message='What are your prices for renting a banquet room for 6 hours for a fashion show for next year around this time of the year?' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:177

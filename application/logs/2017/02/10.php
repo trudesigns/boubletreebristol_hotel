@@ -1,0 +1,3 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2017-02-10 13:02:13 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Contact Us notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='George Karl', email='mercedes.glover@harpercollins.com', company='harpercollins', phone='212 207 7811', message='can you please forward the hotel folio for stay of 1/11 -1/13/17 total $301.27 amex ending # 66006 CF# 82011064' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:177

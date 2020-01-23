@@ -1,0 +1,3 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2018-07-02 09:33:11 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Contact Us notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Deborah Mommaerts', email='damommaerts@sbcglobal.net', company='[Not Provided]', phone='[Not Provided]', message='Does your hotel offer a shuttle service to/from the airport?' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:177

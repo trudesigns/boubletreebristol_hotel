@@ -1,0 +1,3 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2017-01-03 11:16:17 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Request for Proposal notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Sarah Reading', email='lepgirl@yahoo.com', company='[Not Provided]', phone='[Not Provided]', message='Small wedding- 75 people tops. Looking for a site for ceremony and reception. Flexible dates- Sept or Oct 2017' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:333

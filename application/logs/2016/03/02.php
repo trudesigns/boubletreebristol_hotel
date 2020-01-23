@@ -1,0 +1,14 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2016-03-02 04:26:06 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Contact Us notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Ed Frez', email='genius2design@gmail.com', company='[Not Provided]', phone='302-316-3863', message='I'd like to speak with you about making some changes to your website that will help you get better results.  We are able to take your current site and transform it into a business generation machine that will make it your best marketing tool, improving your traffic and sales. <br />
+<br />
+What I'd like to do is jump on the phone with you for about 10 or 15 min and have you tell me about your business goals and see if there are some things I can do on my end to help you achieve those goals.  It doesn't take long to tell if we're the right fit for each other, but I can guarantee you that the information I provide will be beneficial either way.   <br />
+<br />
+One of the best things that we do as opposed to other companies is that we have financing available from 12-24 months. This allows you to do the things you need to do for your site without breaking the bank.  <br />
+<br />
+Just let me know what the best time is to catch you (and best number) and I'll be happy to give you a call.  If you are not interested just let me know and I won't message you again.<br />
+<br />
+Thanks,<br />
+<br />
+Ed Frez' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:177
+2016-03-02 16:02:56 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Contact Us notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Sue Ann Maresca', email='sue.ann.maresca@cancer.org', company='American Cancer Society', phone='2033794780', message='Hello - I work for the American Cancer Society, and I am interested in talking to someone on your team about the possibility of getting 2 certificates for a one-night stay there as  a part of a Gala auction item we are pulling together, that involves a private tour for 4 of ESPN.  Will you please pass this along, and have some one contact me at 203.379.4780 or via email at the address above.  Thank you in advance for considering this request,  And I look forward to hearing from someone soon.  Thanks again.  Warm regards...Sue Ann Maresca, Senior Director of Community Engagement' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:177

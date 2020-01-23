@@ -1,0 +1,7 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2016-09-23 09:00:19 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Request for Proposal notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Gina Wrinn', email='gwrinn@prohealthmd.com', company='ProHealth Physicians', phone='8602845377', message='We're looking for a cocktail style holiday party - hopefully on Dec 15th.<br />
+Between 400-500 guests will wander in and out.<br />
+Served passed apps and perhaps a carving stating and pasta station.<br />
+thanks!' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:333
+2016-09-23 13:54:51 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Contact Us notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Doreen Logan', email='doreen.logan@b-wi.com', company='[Not Provided]', phone='[Not Provided]', message='Hi, does your hotel offer a way for guests to mix their smoothies for their breakfast?  I bring my own ingredients, I was curious if there are blenders available?  Thanks, Doreen' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:177

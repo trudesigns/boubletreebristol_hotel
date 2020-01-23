@@ -1,0 +1,13 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2016-06-19 03:09:37 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Contact Us notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Ed Frez', email='onlinedesignexpertz@gmail.com', company='[Not Provided]', phone='302-316-3863	', message='My name is Ed and I design great looking websites for small business owners. I'm contacting you to see if there are changes or enhancements that you'd like to make to your site. <br />
+<br />
+Have you been thinking about upgrading your site to a more cutting edge look and feel or adding a few elements to the site that will help automate some of your business? If so, I'd really love to speak with you.<br />
+<br />
+Do you have a free minute we can talk in the next couple of days that would work for you? I can give you a few proposals of different strategies that I've done that have had a major effect on my customers ROI. I'd be happy to help out.<br />
+<br />
+I look forward to speaking with you,<br />
+<br />
+Thanks,<br />
+Ed Frez' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:177
+2016-06-19 23:33:45 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Request for Proposal notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Fred Cappelletti', email='frecap2000@yahoo.com', company='[Not Provided]', phone='6313344325', message='Hello, We’re putting together a plan to celebrate my Mom’s 100th birthday in the Waterbury area and are exploring locations. We have in mind of picking one of the following Sunday dates:  09/25, 10/02. 10/09, 10/16, 2016 with an afternoon function maybe something like 1PM to 5PM. We anticipate 60 to 80 attendees and envision a functional no-frills buffet. There would be many elderly attending and handicap accessibility will be required.  We would be interested in media tools such as microphones and big-screen TV and Wi-Fi for internet communication. I will be visiting the Waterbury area Monday 6/20 and Tuesday 6/21 and would like to set up a visit to explore things further. My name is Fred and I can be reached at 631-334-4325, but I will be calling in also on my visit dates. Thanks.' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:333

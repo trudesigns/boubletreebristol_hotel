@@ -1,0 +1,3 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2016-05-22 11:25:38 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Contact Us notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Shannon', email='Yeaman9190@yahoo.com', company='[Not Provided]', phone='[Not Provided]', message='Hi there my name is Shannon I am getting married in the area in October and was just wondering what you offer for room blocks for my out of town guests as well myself and husband would be staying for the weekend. Any information you can provide is much appreciated. Thank you ' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:177

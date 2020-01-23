@@ -1,0 +1,14 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2017-05-14 15:21:48 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Contact Us notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Andrew Ratcliff', email='bestwebdesignusa@gmail.com', company='[Not Provided]', phone='(701) 484-1858', message='I just wanted to ask if you are happy with your website right now or if there are things you'd like to change.  Do you have any upgrades that you've been thinking about making, or possibly a redesign/rebuild?  I'm a very talented web developer and I have created some pretty amazing sites (Let me know if you'd like to see some examples and I'll send them).  My rates are very affordable.  Let me know what you think.    <br />
+Best regards, <br />
+<br />
+Andrew Ratcliff' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:177
+2017-05-14 16:20:23 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Contact Us notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Dave Fournier', email='dpfour63@gmail.com', company='[Not Provided]', phone='860-583-0875', message='To the manager of Althea Jones,<br />
+My wife and I attended your Mothers Day Buffet and were very disappointed with our meals. It started with only being offered water/soda or formosa. We saw that other people had pasteries and ended up waiting until almost done our meal to ask a server if this was included as ours server hadn't returned. Much of the food was just warm at best and some items trays were empty. I went to get coffee and there were no coffee cups available on paper cups. The desert station had no plates and only cookies were available. All others desert trays were empty.<br />
+When requesting our bill I expressed my disappointment to the server any all that was said was sorry. I then requested to speak with the supervisor. The supervisor came introduced herself (Althea Jones) and we explained our disappointment to her. She was very easy to speak with and fully understood our position. She credited us the buffet charge and apologized for the experienced.<br />
+Althea should be credited with her customer service as she was very concerned and attentive to our experience. Thanks to her service my wife and will come back in the future.<br />
+Please feel free to share this email with Althea. You can also call me if you have additional questions.<br />
+<br />
+Sincerely,<br />
+Dave Fournier ' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:177

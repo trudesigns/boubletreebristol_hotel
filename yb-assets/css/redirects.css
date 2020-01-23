@@ -1,0 +1,8 @@
+
+/* chosen.jquery overrides */
+
+#yb-page .chzn-drop, 
+#yb-page .chzn-single {
+	max-width:750px;
+}
+

@@ -1,0 +1,6 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2018-04-23 08:40:26 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Request for Proposal notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Michelle Page', email='pagekoe@gmail.com', company='Unbreakable Moms', phone='8605596418', message='Workshop for Mothers & Daughters.  Total of 20 people for 1 day (8am-5pm).  Theater style set up.<br />
+<br />
+Room must be large enough to allow "breakup into 2 smaller group discussions.' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:333
+2018-04-23 15:14:12 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Request for Proposal notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Alan Wilensky', email='awilensky@waterfordct.org', company='CT Tax Collector's Assn', phone='860-444-5815', message='Our group has been with you before. We are preparing to gather information for future conferences and are looking to schedule our event for 2020. Could you provide us with materials for our future event?' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:333

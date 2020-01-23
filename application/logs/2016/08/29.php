@@ -1,0 +1,8 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2016-08-29 19:39:23 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Contact Us notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='James Wilhelm ', email='designsbypros@gmail.com', company='[Not Provided]', phone='7015573934', message='I'm a search engine marketing specialist and I wanted to reach out because it looks like you're struggling in the search engines and that the potential clients that are searching for your services can't find you online.  <br />
+Google is really the new phone book and I'd like to help you to be listed at the top.  People in your area are searching for your services every day.  I specialize in helping them find you by having you listed at the top of Google for the keywords they're searching for.  <br />
+Do you have some time in the next couple of days that we could jump on a quick call and see if there is an opportunity for us to work together?  No pressure.  I just know that I can bring you more clients, so if it's something that you're interested in, I think we should talk.  <br />
+Let me know what you think.  I'll look forward to hearing from you.  <br />
+Thanks!<br />
+James Wilhelm  - Search Engine Marketing Specialist' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:177

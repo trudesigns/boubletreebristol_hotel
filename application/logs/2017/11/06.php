@@ -1,0 +1,8 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2017-11-06 10:19:00 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Contact Us notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Joanne Benner', email='jbenner69@comcast.net', company='[Not Provided]', phone='508-378-7769', message='My daughter's wedding is on 12/1/17 and we have had our out of state guests book rooms at this hotel; some coming in the day before.  I have two questions/requests:  how did we get early check in for the guests arriving on 12/1/17 as the transportation to the venue is at 3:15 and  check in is at 3:00, are any of your rooms adjoining? Thank you, Joanne Benner' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:177
+2017-11-06 11:41:49 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Request for Proposal notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Amanda Miron', email='armiron@outlook.com', company='[Not Provided]', phone='[Not Provided]', message='Hello,<br />
+I am looking around for a place to hold my baby shower in March. It would be around 40-50 people and I was interested in a brunch type of menu. If you can let me know if this is something the DoubleTree can do, I would appreciate it.<br />
+<br />
+Thanks,<br />
+Amanda' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:333

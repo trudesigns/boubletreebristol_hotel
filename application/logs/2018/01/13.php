@@ -1,0 +1,9 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2018-01-13 10:11:00 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Contact Us notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Alison Hill', email='Aarhill@att.net', company='[Not Provided]', phone='[Not Provided]', message='A few weeks ago I called to make reservations for the Kane/ Bentancourt wedding 8/18 and have confirm# 54320259. Did not receive confirm email. Is my reservation complete? Will my credit card be charged on the date?  Thank you' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:177
+2018-01-13 17:16:25 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Contact Us notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Frank Henderson', email='fhenderson459@gmail.com', company='[Not Provided]', phone='(307) 228-0751', message='Hi! Your site looks like it could use some help with its rankings in the web searches. Have you ever had any optimization work done to it?<br />
+<br />
+It looks like your site wasn't set up properly with the right keywords to make it easy for Google or Bing to find it. I work as a freelance optimizer and I can do everything that needs to be done to help you rank higher in the Google searches.  Please tell me if you're interested in speaking.<br />
+<br />
+Sincerely,<br />
+Frank Henderson' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:177

@@ -1,0 +1,6 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2016-12-14 23:59:12 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Contact Us notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Elfreda Lesesne', email='54188Corvi@gmail.com', company='[Not Provided]', phone='[Not Provided]', message='Hi,<br />
+I want to introduce the Website Reviewer is an incredibly useful tool for those who are involved in SEO and web designing. This particular tool will provide you with quick website review and SEO audit of the websites you’ve created so you will be able to determine if and where any changes should be made so you can make it as effective as possible when it comes to getting visitors and keeping them interested. Unlike many similar tools, website reviewer is completely free. When you use this tool you will discover just how user-friendly your website really is, as this is one of the more important factors to consider.<br />
+May I kindly ask you if you take a try and analyze your website there? It is totally free. http://elkseo.com/website-reviewer/doubletreebristol.com <br />
+Thanks For Your Time.' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:177

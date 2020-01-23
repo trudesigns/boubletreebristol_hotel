@@ -1,0 +1,19 @@
+RewriteEngine On
+
+#Hide this file
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+
+#Prevent directory listings
+Options All -Indexes
+
+## this load files in this folder into the script "view.php"
+#RewriteBase /assets/uploads/secure/
+#RewriteRule .* view.php [L]
+
+
+## this load the "readfile" controller (as defined in bootstrap) 
+RewriteBase /
+RewriteRule .* /readfile [L]

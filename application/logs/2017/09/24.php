@@ -1,0 +1,9 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2017-09-24 09:55:02 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Contact Us notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='RICHARD L GRIMALDI', email='Grimmy54@charter.net', company='1952', phone='4132624512', message='We will be staying there with a wedding party over the Columbus Day weekend (10/6-10/9/17).  Do you offer any sort of shuttle service to/from Bradley International Airport?' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:177
+2017-09-24 22:05:13 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Contact Us notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Priscilla Schwartz', email='real4youmarketing@gmail.com', company='[Not Provided]', phone='1516761758', message='It seems like your site could use an increase the amount of traffic that it's currently getting. I am an expert in helping site owners get more traffic and making sure they get a higher position in web searches.<br />
+<br />
+Please let me know if you want to learn more about what I can do and what to expect when your site has been optimized. I can give you a call at a time that is most convenient for you. I will then provide you with more details on how this optimization can be done for your site. Hopefully we can work together.<br />
+<br />
+Sincerely,<br />
+Priscilla Schwartz' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:177

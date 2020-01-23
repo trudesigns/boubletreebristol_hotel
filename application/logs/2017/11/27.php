@@ -1,0 +1,9 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2017-11-27 10:22:48 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Request for Proposal notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Julia Weston', email='Julia.Weston@Thrivent.com', company='Thrivent Financial', phone='860-261-7562', message='Christmas Party in early January for top clients. Expect about 50 people. Looking for pricing options.<br />
+<br />
+Thanks!' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:333
+2017-11-27 16:24:18 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Contact Us notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Linton Brown', email='songerguerrette85@gmail.com', company='[Not Provided]', phone='(681) 238-9271', message='Do you show up on the first page of the search engines when people are looking for the services that your business offer? Or do you have to click on 'next' a few times just so people can find you?<br />
+Being on page 2 or beyond means that you're missing out on a TON of business opportunities and that is something that I'd like to talk with you about. The site optimization service I provide is very affordable and it will put your site on the 1st page of the web searches (which is where the profit really is). Interested? I can tell you that this will really help in getting traffic to your site and making sure your clients find your business right away.<br />
+Send me a reply and let me know what you think.<br />
+- Linton' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:177

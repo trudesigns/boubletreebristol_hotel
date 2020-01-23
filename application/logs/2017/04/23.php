@@ -1,0 +1,10 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2017-04-23 19:37:09 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Contact Us notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Steve McTavish', email='seriousdesign1@gmail.com', company='[Not Provided]', phone='354-478-8853', message='Forgive me for reaching out through your contact form, but I thought it would be less intrusive than cold calling.  I am a talented web designer that is looking for new projects and clients.  I was just on your site and it's a nice site, but it could be amazing.  I would really like to work on it and make improvements.  Are you interested in redesigning the site or adding some features?  I have a lot of ideas I'd like to share with you.    <br />
+<br />
+Let me know if you're interested in talking to me and hearing some of my ideas as well as getting a proposal.  I'd really love to help with your site.  Hope to hear from you soon.  Thanks!<br />
+<br />
+Steve McTavish' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:177
+2017-04-23 22:52:30 --- INFO:  Email request TO: Lynn.Dell@Hilton.com SUBJECT: Doubletreebristol.com: Contact Us notification MESSAGE: A user has filled out the Contact Us form. Their information is below. DATA: name='Jeremy Bruney', email='Jeremyb8897@gmail.com', company='[Not Provided]', phone='8603853795', message='Room 606 Friday-Sunday. Massage convention. By far one of the best hotel stays I have had. Incredible staff thank you Katie and the rest of the front desk. Louis and Danielle in the restaurant. Junior was working the late night shift just as positive as the early risers.<br />
+<br />
+Absolutely will stay again! And recommend!' in /var/www/html/doubletreebristol.prod01.pita.website/application/classes/Controller/Custom.php:177
