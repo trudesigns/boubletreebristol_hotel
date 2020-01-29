@@ -14,10 +14,14 @@ return array(
              *
              * Ports and sockets may be appended to the hostname.
              */
+            // 'hostname' => "localhost",
+            // 'database' => "doubletreebristol_com", //pita_sandbox
+            // 'username' => "doubletreebristol_admin", //pita_sandbox
+            // 'password' => "lXU.jZyrVWhO@qW+cUrq2N6QTzF5N%Ut", //p!taS@ndb0x
             'hostname' => "localhost",
-            'database' => "doubletreebristol_com", //pita_sandbox
-            'username' => "doubletreebristol_admin", //pita_sandbox
-            'password' => "lXU.jZyrVWhO@qW+cUrq2N6QTzF5N%Ut", //p!taS@ndb0x
+            'database' => "alldream_doubletreebristol",
+            'username' => "alldream_dtreebr",
+            'password' => "jd23!jsjJJUFs"
         ),
         'table_prefix' => '',
         'charset' => 'utf8',

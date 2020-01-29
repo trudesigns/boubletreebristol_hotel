@@ -90,6 +90,7 @@ class Kohana_Route {
 	 */
 	public static function set($name, $uri = NULL, $regex = NULL)
 	{
+		// return Route::$_routes[$name] = new Route("DoubleTreeBristolHotel/" . $uri, $regex);
 		return Route::$_routes[$name] = new Route($uri, $regex);
 	}
 

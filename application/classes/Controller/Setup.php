@@ -11,6 +11,9 @@
  */
 class Controller_Setup extends Controller_Template {
 
+    // ***** MOD
+    public $rootPath = "/DoubleTreeBristolHotel";
+
     public $user = null;
     public $user_access_roles = null;
     
@@ -37,7 +40,9 @@ class Controller_Setup extends Controller_Template {
     // return URI of this page; used in lookup of page data
     private function getURI() {
         $parts = explode("?", $_SERVER['REQUEST_URI']);
-        return trim($parts[0], "/");
+        // ***** MOD
+        //return trim($parts[0], "/");
+        return trim(str_replace($this->rootPath,"",$parts[0]), "/");
     }
 
     // return all the info about this "page" 
@@ -179,38 +184,57 @@ class Controller_Setup extends Controller_Template {
 
     public function after() {
         if ($this->auto_render) {
-              $tstyles = [
-                  'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'=>"all"
-                  ,'https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'=>'all'
-                  ,'assets/css/bootstrap.inline-responsive.css'=>'all'
-                  ,'/yb-assets/plugins/chosen/chosen.min.css'=>'all'
-                  ,'/yb-assets/plugins/chosen/bootstrap-chosen.css'=>'all'
-                  ,'/yb-assets/plugins/jquery-ui.1.11.0/jquery-ui.min.css'=>'all'
-                  ,'/yb-assets/plugins/jquery-ui.1.11.0/jquery-ui.theme.min.css'=>'all'
-                  ,'assets/plugins/photobox/photobox.css'=>'all'
-                  
+            $tstyles = [
+                'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'=>"all"
+                ,'https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'=>'all'
+                ,$this->rootPath.'/assets/css/bootstrap.inline-responsive.css'=>'all'
+                ,$this->rootPath.'/yb-assets/plugins/chosen/chosen.min.css'=>'all'
+                ,$this->rootPath.'/yb-assets/plugins/chosen/bootstrap-chosen.css'=>'all'
+                ,$this->rootPath.'/yb-assets/plugins/jquery-ui.1.11.0/jquery-ui.min.css'=>'all'
+                ,$this->rootPath.'/yb-assets/plugins/jquery-ui.1.11.0/jquery-ui.theme.min.css'=>'all'
+                ,$this->rootPath.'/assets/plugins/photobox/photobox.css'=>'all'
+                //   'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'=>"all"
+                //   ,'https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'=>'all'
+                //   ,'/assets/css/bootstrap.inline-responsive.css'=>'all'
+                //   ,'/yb-assets/plugins/chosen/chosen.min.css'=>'all'
+                //   ,'/yb-assets/plugins/chosen/bootstrap-chosen.css'=>'all'
+                //   ,'/yb-assets/plugins/jquery-ui.1.11.0/jquery-ui.min.css'=>'all'
+                //   ,'/yb-assets/plugins/jquery-ui.1.11.0/jquery-ui.theme.min.css'=>'all'
+                //   ,'/assets/plugins/photobox/photobox.css'=>'all'
             ];
             $mstyles = [];
             $bstyles = [
-                 'assets/css/style.css'=>'all',
-                'assets/css/owl.carousel.css'=>'all'
+                $this->rootPath.'/assets/css/style.css'=>'all',
+                $this->rootPath.'/assets/css/owl.carousel.css'=>'all'
+                // '/assets/css/style.css'=>'all',
+                // '/assets/css/owl.carousel.css'=>'all'
             ];
             //set global scripts - call any extra like above example, $this->$template->scripts
             $tscripts = [
-                  'http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'
-                , 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js'
-                , 'assets/js/owl.carousel.min.js'
-                 , 'yb-assets/js/security.js'
-                ,'yb-assets/plugins/chosen/chosen.jquery.min.js'
-                ,'yb-assets/plugins/jquery-ui.1.11.0/jquery-ui.min.js'
-                ,'yb-assets/plugins/jquery.validate/jquery.validate.min.js'
-                ,'yb-assets/plugins/jquery.validate/additional-methods.min.js'
-                ,"/assets/plugins/photobox/jquery.photobox.js"
+                'http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js',
+                'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js',
+                $this->rootPath.'/assets/js/owl.carousel.min.js',
+                $this->rootPath.'/yb-assets/js/security.js',
+                $this->rootPath.'/yb-assets/plugins/chosen/chosen.jquery.min.js',
+                $this->rootPath.'/yb-assets/plugins/jquery-ui.1.11.0/jquery-ui.min.js',
+                $this->rootPath.'/yb-assets/plugins/jquery.validate/jquery.validate.min.js',
+                $this->rootPath.'/yb-assets/plugins/jquery.validate/additional-methods.min.js',
+                $this->rootPath.'/assets/plugins/photobox/jquery.photobox.js'
+                //   'http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'
+                // , 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js'
+                // , 'assets/js/owl.carousel.min.js'
+                //  , 'yb-assets/js/security.js'
+                // ,'/yb-assets/plugins/chosen/chosen.jquery.min.js'
+                // ,'/yb-assets/plugins/jquery-ui.1.11.0/jquery-ui.min.js'
+                // ,'/yb-assets/plugins/jquery.validate/jquery.validate.min.js'
+                // ,'/yb-assets/plugins/jquery.validate/additional-methods.min.js'
+                // ,"/assets/plugins/photobox/jquery.photobox.js"
                 
             ];
             $mscripts = [];
             $bscripts = [
-                  'assets/js/script.js'
+                // '/assets/js/script.js'
+                $this->rootPath.'/assets/js/script.js'
             ];
             //pass the settings on to the template
             $this->template->tstyles = array_merge($tstyles, $this->template->tstyles);    // append STYLE TOP

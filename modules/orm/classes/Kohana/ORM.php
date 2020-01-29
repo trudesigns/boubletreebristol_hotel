@@ -1074,6 +1074,7 @@ class Kohana_ORM extends Model implements serializable {
 
 			$this->reset();
 
+			// ***** MOD
 			if ($result->count() === 1)
 			{
 				// Load object values

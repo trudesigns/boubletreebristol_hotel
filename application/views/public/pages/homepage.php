@@ -11,7 +11,8 @@
                 $extraClass = "active";
             }
 //
-            echo '<div class="'.$extraClass.' item"><div class="shadow-overlay hidden-xs"></div><img src="'.$slides->image[$i].'"></div>';
+            echo '<div class="'.$extraClass.' item"><div class="shadow-overlay hidden-xs"></div><img src="'.$_this->rootPath.$slides->image[$i].'"></div>';
+            //echo '<div class="'.$extraClass.' item"><div class="shadow-overlay hidden-xs"></div><img src="'.$slides->image[$i].'"></div>';
 
         }
 
@@ -35,9 +36,11 @@
             $out .= "<a href='".$callouts->link[$i]."' class='overlay'>&nbsp;</a>";
             if ($i % 2 == 0){//even
                 $out .= "<div class='copy'><div class='containerPad'><span class='heading'>".$callouts->title[$i]."</span><p>".$callouts->caption[$i]."</p></div></div>";
-                $out .= "<div class='arrow-down'><img src='".$callouts->image[$i]."'></div>";
+                //$out .= "<div class='arrow-down'><img src='".$callouts->image[$i]."'></div>";
+                $out .= "<div class='arrow-down'><img src='".$_this->rootPath.$callouts->image[$i]."'></div>";
             } else {//odd
-                $out .= "<div class='arrow-up'><img class='img-responsive' src='".$callouts->image[$i]."'></div>";
+                $out .= "<div class='arrow-up'><img class='img-responsive' src='".$_this->rootPath.$callouts->image[$i]."'></div>";
+                //$out .= "<div class='arrow-up'><img class='img-responsive' src='".$callouts->image[$i]."'></div>";
                 $out .= "<div class='copy'><div class='containerPad'><span class='heading'>".$callouts->title[$i]."</span><p>".$callouts->caption[$i]."</p></div></div>";
             }
             $out .= "</div>";

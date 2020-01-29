@@ -13,7 +13,7 @@ class Controller_Default extends Controller_Setup {
     public function __construct(\Request $request, \Response $response) {
 
         $action = $request->action();
-        //echo "ACTIOn: ".$action;exit;
+        // echo "ACTIOn: ".$action;exit;
         if (array_key_exists($action, $this->acl)) {//is this action protected
             //echo "PAGE TRESPASS";exit;
             $this->auth_required = true;
@@ -50,12 +50,28 @@ class Controller_Default extends Controller_Setup {
     }
 
     public function action_index() {
-       // echo "HERE";exit;
-        if (!isset($this->page) || !isset($this->page->active) || $this->page->active != 1 || (isset($this->page->start_date) && $this->page->start_date != "0000-00-00 00:00:00" && strtotime($this->page->start_date) > time() ) || (isset($this->page->end_date) && $this->page->end_date != "0000-00-00 00:00:00" && strtotime($this->page->end_date) < time() )) {
+        // echo "HERE";exit;
+        // ***** MOD
+        if (
+            !isset($this->page) ||
+            !isset($this->page->active) ||
+            $this->page->active != 1 ||
+            (
+                isset($this->page->start_date) && $this->page->start_date != "0000-00-00 00:00:00" && strtotime($this->page->start_date) > time()
+            ) ||
+            (
+                isset($this->page->end_date) && $this->page->end_date != "0000-00-00 00:00:00" && strtotime($this->page->end_date) < time()
+            )
+        ) {
             $this->load_404();
             return;
         }
+        // if (!isset($this->page) || !isset($this->page->active) || $this->page->active != 1 || (isset($this->page->start_date) && $this->page->start_date != "0000-00-00 00:00:00" && strtotime($this->page->start_date) > time() ) || (isset($this->page->end_date) && $this->page->end_date != "0000-00-00 00:00:00" && strtotime($this->page->end_date) < time() )) {
+        //     $this->load_404();
+        //     return;
+        // }
 
+        // ***** MOD - Commented this
         if ($this->auth_required && is_null($this->user)) {
             $this->redirect(PATH_BASE . 'user/signin/?goto=' . $_SERVER['REQUEST_URI']);
         }
@@ -81,10 +97,10 @@ class Controller_Default extends Controller_Setup {
 //		}
 
         $template_parameters = json_decode($this->pageTemplate->parameters);
-       // print_r($template_parameters);exit;
+        // print_r($template_parameters);exit;
         if (isset($template_parameters->controller) && $template_parameters->controller != "default" && $template_parameters->controller != "") {
             $controller = "Controller_" . ucfirst($template_parameters->controller);
-            //echo"CONTROLLER: ".$controller;
+            // echo"CONTROLLER: ".$controller;
             $action = (isset($template_parameters->controller_action) && $template_parameters->controller_action != "") ? $template_parameters->controller_action : 'action_index';
             if ($action == "search") {
                 $action = "action_search";
@@ -94,7 +110,10 @@ class Controller_Default extends Controller_Setup {
             $view = $sub_controller->$action($this);
         } else {
             $view_file = (isset($template_parameters->page) && $template_parameters->page != "") ? $template_parameters->page : $this->defaultTemplates['page']['path'];
+            // ***** MOD
             $view = new View($view_file);
+            // $view = new View("public/pages/contact");
+            // echo "view_file: " . $view_file . "<br/>";
         }
 
         if (isset($_GET['json'])) {
@@ -120,12 +139,16 @@ class Controller_Default extends Controller_Setup {
         } else {
             $innerViewPath = $this->defaultTemplates['layout']['path'];
         }
+
         $this->template->innerView = new View($innerViewPath);
         $this->template->innerView->bind('_this', $this);
 
         $this->template->innerView->pageView = $view;
         $this->template->innerView->pageView->bind('_this', $this);
 
+        // ***** MOD
+        // echo "innerViewPath: " . $innerViewPath;
+        // echo "view: " . $view;
 
           /*********
          * CONTENT SPECIFC TO DOUBELTREE
@@ -138,15 +161,7 @@ class Controller_Default extends Controller_Setup {
         //CATEGORIES
         $cats  = ORM::factory("Categories")->find_all();
         $this->template->innerView->pageView->set('cats', $cats);
-        
-   
 
-        
-      
-        
-      
-        
-        
     }
 
 //end action_index()

@@ -1,4 +1,7 @@
 <?php defined('SYSPATH') OR die('No direct access allowed.'); ?>
+<?php
+$rootPath = "/DoubleTreeBristolHotel";
+?>
 <!DOCTYPE HTML>
 <!--[if IE 7]><html class="ie ie7 no-js"><![endif]-->
 <!--[if IE 8]><html class="ie ie8 no-js"><![endif]-->
@@ -21,34 +24,35 @@
     -->
 
     <title><?php
-if (isset($_this->template->meta_title)) { echo $_this->template->meta_title; }
+if (isset($_this->template->meta_title)) {
+    echo $_this->template->meta_title;
+}
 
-	if (isset($_this->pageContents->meta_title->content) && !empty($_this->pageContents->meta_title->content))
-	{ 
-		echo $_this->pageContents->meta_title->content .' | '; 
-	}
-	else
-	{ 
-		$title = (isset($_this->pageContents->title) 
-                        && !empty($_this->pageContents->title)) 
-                        ? $_this->pagecontent->title->content : (isset($_this->page)) ? $_this->page->label : '';
-		echo $title.' | '; 
-	}
-	?> Double Tree Bristol</title>
+if (isset($_this->pageContents->meta_title->content) && !empty($_this->pageContents->meta_title->content))
+{ 
+    echo $_this->pageContents->meta_title->content .' | ';
+}
+else
+{
+    $title = (isset($_this->pageContents->title) && !empty($_this->pageContents->title)) ? $_this->pagecontent->title->content : (isset($_this->page)) ? $_this->page->label : '';
+    echo $title.' | ';
+    // echo "ah: " . $_this->pagecontent->title->content;
+}
+?> Double Tree Bristol</title>
 
 
 <?php
 	// set "expires" meta tag if page has an expiration date (set in controller)
 	if(isset($page_expiration) && strtotime($page_expiration) > time() )
 	{
-?>
-<meta name="expires" content="<?php echo date("D, d M, Y",strtotime($page_expiration)); ?>">
-<?php
+        ?>
+        <meta name="expires" content="<?php echo date("D, d M, Y",strtotime($page_expiration)); ?>">
+        <?php
 	}
-	
-$meta_name_tags = array("description"=>"meta_description",
-						"keywords"=>"meta_keywords"
-						);
+    $meta_name_tags = array(
+        "description"=>"meta_description",
+        "keywords"=>"meta_keywords"
+    );
 foreach($meta_name_tags as $name => $block_name)
 {
 	if(!isset($_this->pageContents->$block_name->content) || empty($_this->pageContents->$block_name->content))
@@ -145,7 +149,7 @@ echo (isset($_this->pageContents->extra_head_code->content) && !empty($_this->pa
             </div>
        </div><!--end utility-->
        <div id="logo" class="text-center">
-           <a href="/"><img src="/assets/images/full_logo_2018.jpg"></a>
+           <a href="/"><img src="<?php echo $rootPath; ?>/assets/images/full_logo_2018.jpg"></a>
         </div>
         
     </header><!-- /header -->
@@ -176,7 +180,8 @@ echo (isset($_this->pageContents->extra_head_code->content) && !empty($_this->pa
         <div class="container">
             <div class="row">
                 <div class="col-sm-4 footer-left">
-                    <a href="/"><img src="/assets/images/BristolConnecticut_white.png"></a>
+                    <a href="/"><img src="<?php echo $_this->rootPath; ?>/assets/images/BristolConnecticut_white.png"></a>
+                    <!--<a href="/"><img src="/assets/images/BristolConnecticut_white.png"></a>-->
                 </div>
                 <div class="col-sm-4 footer-middle">
                     

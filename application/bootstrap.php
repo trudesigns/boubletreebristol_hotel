@@ -100,11 +100,16 @@ if (isset($_SERVER['KOHANA_ENV'])) {
  * - boolean  caching     enable or disable internal caching                 FALSE
  * - boolean  expose      set the X-Powered-By header                        FALSE
  */
-Kohana::init(array(
+ Kohana::init(array(
     'base_url' => '/'
-    , 'index_file' => FALSE
-     ,'errors'=>  Kohana::$environment !== Kohana::PRODUCTION//turns the error only on the non PRODUCTION env
+    ,'index_file' => FALSE
+    ,'errors'=>  Kohana::$environment !== Kohana::PRODUCTION//turns the error only on the non PRODUCTION env
 ));
+// Kohana::init(array(
+//     'base_url' => '/'
+//     , 'index_file' => FALSE
+//      ,'errors'=>  Kohana::$environment !== Kohana::PRODUCTION//turns the error only on the non PRODUCTION env
+// ));
 
 /**
  * Attach the file write to logging. Multiple writers are supported.
@@ -189,73 +194,79 @@ Cache::$default = 'default';
 //        ));
 
 //use a given admin controller when specified
+// ***** MOD - Commented all routes
 Route::set('admin_controllers', '<directory>/<controller>(/<action>(/<id>))', array('directory' => 'admin', 'controller' => 'menubuilder|pagemanager|request|redirects|tasks|news|categories'))
-        ->defaults(array(
-            'directory' => 'admin',
-            'action' => 'index',
-        ));
-
-
+->defaults(array(
+    'directory' => 'admin',
+    'action' => 'index',
+));
 
 //use the "custom" or "default" admin controllers for all other "admin" pages
 Route::set('admin', 'admin(/<action>(/<id>))')
-        ->defaults(array(
-            'directory' => 'admin',
-            'controller' => 'custom', // the "custom" controller extends the "default" controller where all the CMS logic lives
-            'action' => 'index',
-        ));
+->defaults(array(
+    'directory' => 'admin',
+    'controller' => 'custom', // the "custom" controller extends the "default" controller where all the CMS logic lives
+    'action' => 'index',
+));
 
 /**
  * USER MANAGEMENT CONTROLLER
  *
  */
 Route::set('user', 'user(/<action>(/<id>))')
-        ->defaults(array(
-            'controller' => 'user',
-            'action' => 'index',
-        ));
-
-
+->defaults(array(
+    'controller' => 'user',
+    'action' => 'index',
+));
 
 /**
  * REQUEST "AJAX" CONTROLLER
  *
  */
 Route::set('ajax', 'request(/<action>(/<params>))')
-        ->defaults(array(
-            'controller' => 'request',
-            'action' => 'index',
-        ));
+->defaults(array(
+    'controller' => 'request',
+    'action' => 'index',
+));
 
 /**
  * display captach and update session with captcha value
  *
  */
 Route::set('captcha', 'captcha')
-        ->defaults(array(
-            'controller' => 'captcha',
-            'action' => 'index',
-        ));
+->defaults(array(
+    'controller' => 'captcha',
+    'action' => 'index',
+));
 
 /**
  * Output files based on session roles
  *
  */
 Route::set('readfile', 'readfile(/<path>)', array('path' => '.+'))
-        ->defaults(array(
-            'controller' => 'readfile',
-            'action' => 'index',
-        ));
+->defaults(array(
+    'controller' => 'readfile',
+    'action' => 'index',
+));
 
 /**
  * ALL OTHER PAGES GO THROUGH THE "Default" CONTROLLER
  *
  */
-Route::set('normal', '(<page>(/<subpages>))', array('page' => '.+', 'subpages' => '.+'))
-        ->defaults(array(
-            'controller' => 'default',
-            'action' => 'index',
-        ));
+
+// ***** MOD
+// Route::set('testing', 'Custom(/<action>)')
+// ->defaults(array(
+//     'controller' => 'default',
+//     'action' => 'index',
+// ));
+// print_r($_SERVER["DOCUMENT_ROOT"]);
+
+Route::set('normal', 'DoubleTreeBristolHotel(/<page>(/<subpages>))', array('page' => '.+', 'subpages' => '.+'))
+->defaults(array(
+    'controller' => 'default',
+    'action' => 'index'
+));
 
 Cookie::$salt = "Les clefs de la reussite sont joie et amour!..";
 

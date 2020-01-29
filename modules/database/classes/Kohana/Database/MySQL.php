@@ -24,6 +24,7 @@ class Kohana_Database_MySQL extends Database {
 
 	public function connect()
 	{
+
 		if ($this->_connection)
 			return;
 
@@ -34,6 +35,7 @@ class Kohana_Database_MySQL extends Database {
 			Database_MySQL::$_set_names = ! function_exists('mysql_set_charset');
 		}
 
+		// ***** Not doing anything
 		// Extract the connection parameters, adding required variabels
 		extract($this->_config['connection'] + array(
 			'database'   => '',
@@ -53,7 +55,7 @@ class Kohana_Database_MySQL extends Database {
 				// Create a persistent connection
 				$this->_connection = mysql_pconnect($hostname, $username, $password);
 			}
-			else
+			else // ***** MOD - Goes in here
 			{
 				// Create a connection and force it to be a new link
 				$this->_connection = mysqli_connect($hostname, $username, $password, $database);
@@ -69,29 +71,29 @@ class Kohana_Database_MySQL extends Database {
 				$e->getCode());
 		}
 
-		// \xFF is a better delimiter, but the PHP driver uses underscore
-		$this->_connection_id = sha1($hostname.'_'.$username.'_'.$password);
+		// // \xFF is a better delimiter, but the PHP driver uses underscore
+		// $this->_connection_id = sha1($hostname.'_'.$username.'_'.$password);
 
-		$this->_select_db($database);
+		// $this->_select_db($database);
 
-		if ( ! empty($this->_config['charset']))
-		{
-			// Set the character set
-			$this->set_charset($this->_config['charset']);
-		}
+		// if ( ! empty($this->_config['charset']))
+		// {
+		// 	// Set the character set
+		// 	$this->set_charset($this->_config['charset']);
+		// }
 
-		if ( ! empty($this->_config['connection']['variables']))
-		{
-			// Set session variables
-			$variables = array();
+		// if ( ! empty($this->_config['connection']['variables']))
+		// {
+		// 	// Set session variables
+		// 	$variables = array();
 
-			foreach ($this->_config['connection']['variables'] as $var => $val)
-			{
-				$variables[] = 'SESSION '.$var.' = '.$this->quote($val);
-			}
+		// 	foreach ($this->_config['connection']['variables'] as $var => $val)
+		// 	{
+		// 		$variables[] = 'SESSION '.$var.' = '.$this->quote($val);
+		// 	}
 
-			mysqli_query($this->_connection,'SET '.implode(', ', $variables));
-		}
+		// 	mysqli_query($this->_connection,'SET '.implode(', ', $variables));
+		// }
 	}
 
 	/**
@@ -183,6 +185,7 @@ class Kohana_Database_MySQL extends Database {
 		}
 
 		// Execute the query
+		// ***** MOD
 		if (($result = mysqli_query($this->_connection,$sql)) === FALSE)
 		{
 			if (isset($benchmark))
@@ -207,6 +210,7 @@ class Kohana_Database_MySQL extends Database {
 		if ($type === Database::SELECT)
 		{
 			// Return an iterator of results
+			// ***** MOD
 			return new Database_MySQL_Result($result, $sql, $as_object, $params);
 		}
 		elseif ($type === Database::INSERT)
@@ -361,6 +365,7 @@ class Kohana_Database_MySQL extends Database {
 
 		$count = 0;
 		$columns = array();
+		// ***** MOD
 		foreach ($result as $row)
 		{
 			list($type, $length) = $this->_parse_type($row['Type']);
@@ -430,6 +435,7 @@ class Kohana_Database_MySQL extends Database {
 		// Make sure the database is connected
 		$this->_connection or $this->connect();
 
+		// ***** MOD
 		if (($value = mysqli_real_escape_string( $this->_connection,(string) $value)) === FALSE)
 		{
 			throw new Database_Exception(':error',

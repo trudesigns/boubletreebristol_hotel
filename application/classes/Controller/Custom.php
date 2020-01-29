@@ -9,59 +9,57 @@
  *
  */
 
-class Controller_Custom {	 
-	
+class Controller_Custom {	
 	
 	public function action_search($parent_this)
 	{
-                        $view = new View('public/pages/search');
-                        if (isset($_GET['csrf']) && Security::check(base64_decode($_GET['csrf']))) {
-                            if(isset($_GET['q']) )
-                            {
-                                    $contentObj = new Model_Content;
-                                    $params["q"] = htmlspecialchars($_GET['q']);
-                                    $params["exactMatch"] = (isset($_GET['match']) && $_GET['match'] == "phrase") ? true : false;
-                                    $params["limit"] = (isset($_GET['limit']) && is_numeric($_GET['limit'])) ? $_GET['limit'] : 10;
-                                    $params["offset"] = (isset($_GET['offset']) && is_numeric($_GET['offset'])) ? $_GET['offset'] : 0;
+		$view = new View('public/pages/search');
+		if (isset($_GET['csrf']) && Security::check(base64_decode($_GET['csrf']))) {
+			if(isset($_GET['q']) )
+			{
+				$contentObj = new Model_Content;
+				$params["q"] = htmlspecialchars($_GET['q']);
+				$params["exactMatch"] = (isset($_GET['match']) && $_GET['match'] == "phrase") ? true : false;
+				$params["limit"] = (isset($_GET['limit']) && is_numeric($_GET['limit'])) ? $_GET['limit'] : 10;
+				$params["offset"] = (isset($_GET['offset']) && is_numeric($_GET['offset'])) ? $_GET['offset'] : 0;
 
-                                    // add common words related to specific site or client which too frequently in the content
-                                    $params["additionalStopWords"] = array("");
+				// add common words related to specific site or client which too frequently in the content
+				$params["additionalStopWords"] = array("");
 
-                                    $view->search_results = $contentObj->search($params);
-                            }
-                            else
-                            {
-                                    $view->search_results = array();	
-                            }
-                        } else {
-                            $view->search_results = array();
-                        }
+				$view->search_results = $contentObj->search($params);
+			}
+			else
+			{
+				$view->search_results = array();	
+			}
+		} else {
+			$view->search_results = array();
+		}
 
-                        return $view;		
+		return $view;		
 	}
 	
 	public function action_sitemapXML($parent_this)
 	{
-                    $view = new View('public/pages/sitemap');	
-                    $view->xml = true;
-                    header("Content-type: text/xml");
-                    $this->auto_render = false;
-                    exit($view);
+		$view = new View('public/pages/sitemap');	
+		$view->xml = true;
+		header("Content-type: text/xml");
+		$this->auto_render = false;
+		exit($view);
 	}
         
-        public function action_sitemap()
-        {
-            $view = new View('public/pages/sitemap');	
-            $view->xml = false;
-            return $view;
-        }
+	public function action_sitemap()
+	{
+		$view = new View('public/pages/sitemap');	
+		$view->xml = false;
+		return $view;
+	}
 	
 	/****													****/
 	
 	/**** Example Contact Us Form w/ Captcha and Validation ****/
 	
 	/****													****/
-	
 	
 	public function action_contact() {
 		
@@ -150,25 +148,25 @@ class Controller_Custom {
 				// Next, match $posted key names as "Label => Key"
 				
 				$fields = array("Name:" => "name",
-								"Company:" => "company",
-								"Email:" => "email",
-								"Phone: " => "phone",
-								"Message:<br />" => "message"
-							   );
-                                $stor = [
-                                    "Name"=>$posted['name'],
-                                    "Phone"=>$posted['phone'],
-                                    "Email"=>$posted['email'],
-                                    "Message"=>$posted['message'],
-                                    "Company"=>$posted['company']
-                                ];
+					"Company:" => "company",
+					"Email:" => "email",
+					"Phone: " => "phone",
+					"Message:<br />" => "message"
+					);
+					$stor = [
+						"Name"=>$posted['name'],
+						"Phone"=>$posted['phone'],
+						"Email"=>$posted['email'],
+						"Message"=>$posted['message'],
+						"Company"=>$posted['company']
+					];
 				
 				// Finally, pass "$posted" array into the Send E-mail function
 				$com = new Model_Communications;
-                                $com->type="Contact Us";
-                                $com->content =json_encode($stor);
-                                $com->timestamp = date("Y-m-d H:i:s");
-                                $com->save();
+				$com->type="Contact Us";
+				$com->content =json_encode($stor);
+				$com->timestamp = date("Y-m-d H:i:s");
+				$com->save();
                                 
                                 
 				$tools = new Model_Tools;
@@ -306,25 +304,25 @@ class Controller_Custom {
 				// Next, match $posted key names as "Label => Key"
 				
 				$fields = array("Name:" => "name",
-								"Company:" => "company",
-								"Email:" => "email",
-								"Phone: " => "phone",
-								"Request:<br />" => "message"
-							   );
-                                $stor = [
-                                    "Name"=>$posted['name'],
-                                    "Phone"=>$posted['phone'],
-                                    "Email"=>$posted['email'],
-                                    "Request"=>$posted['message'],
-                                    "Company"=>$posted['company']
-                                ];
+					"Company:" => "company",
+					"Email:" => "email",
+					"Phone: " => "phone",
+					"Request:<br />" => "message"
+					);
+					$stor = [
+						"Name"=>$posted['name'],
+						"Phone"=>$posted['phone'],
+						"Email"=>$posted['email'],
+						"Request"=>$posted['message'],
+						"Company"=>$posted['company']
+					];
 				
 				// Finally, pass "$posted" array into the Send E-mail function
 				$com = new Model_Communications;
-                                $com->type="RFP";
-                                $com->content =json_encode($stor);
-                                $com->timestamp = date("Y-m-d H:i:s");
-                                $com->save();
+				$com->type="RFP";
+				$com->content =json_encode($stor);
+				$com->timestamp = date("Y-m-d H:i:s");
+				$com->save();
                                 
                                 
 				$tools = new Model_Tools;

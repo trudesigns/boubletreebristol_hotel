@@ -129,14 +129,14 @@ class Model_Page extends ORM {
      */
     public function getPagefromURL($route, $recursionFlag = false) {
         //$route looks like:  page/subpage1/subpage2/subpage3
-//echo "Route: ".var_dump($route);exit;
+        // echo "Route: ".var_dump($route);exit;
         $route = ltrim($route, "/"); // remove and leading slashes (even though there shouldn't be one)
         if ($route == "") {
             $uri_parts = array('');
         } else {
             $uri_parts = explode("/", $route); //returns  [0] => page [1] => subpage1 [1] => subpage2 [2] => subpage3
         }
-//print_r($uri_parts);exit;
+        //print_r($uri_parts);exit;
         // if url_locale is turned on, look for template content blocks that use the url to determine what version of the content to load
         // eg:  /about-us = default version vs /es/about-us = spanish version		
         if (url_locale) {
@@ -153,7 +153,7 @@ class Model_Page extends ORM {
         }
 
         $uri_num_parts = count($uri_parts);
-//echo "PPPP: ".urldecode($uri_parts[$uri_num_parts - 1]);
+        // echo "PPPP: ".urldecode($uri_parts[$uri_num_parts - 1]);
         if ($uri_num_parts <= 1) {
             $sql_where = " slug = '{$route}' AND parent_id = 0";
         } else {
@@ -171,10 +171,11 @@ class Model_Page extends ORM {
         }
 
         $sql = "SELECT * FROM " . _table_pages . " WHERE  " . $sql_where;
+        // print_r($sql);
 
         //echo "SQL: ".$sql;exit;
         $results = DB::query(1, $sql)->as_object()->execute();
-//var_dump($results);exit;
+        // var_dump($results);exit;
        // echo "<br />CNT: ".count($results);
         if (count($results) == 0) { // if no page was found, maybe the end of the url is really a variable being passed to the controller.  lop it off and try again.
             array_pop($uri_parts);
@@ -191,7 +192,7 @@ class Model_Page extends ORM {
                     return false; // this page's template is not set to have pseduo children. controller should return 404
                 }
             } //end check for $recursionFlag
-          // echo "shshshs";
+            // echo "shshshs";
             //print_r($results[0]);exit;
             return $results[0];
         }
