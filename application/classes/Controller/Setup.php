@@ -12,7 +12,7 @@
 class Controller_Setup extends Controller_Template {
 
     // ***** MOD
-    public $rootPath = "/DoubleTreeBristolHotel";
+    public $rootPath = "/";
 
     public $user = null;
     public $user_access_roles = null;

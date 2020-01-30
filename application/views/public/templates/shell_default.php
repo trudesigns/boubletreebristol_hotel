@@ -1,6 +1,6 @@
 <?php defined('SYSPATH') OR die('No direct access allowed.'); ?>
 <?php
-$rootPath = "/DoubleTreeBristolHotel";
+$rootPath = "/";
 ?>
 <!DOCTYPE HTML>
 <!--[if IE 7]><html class="ie ie7 no-js"><![endif]-->

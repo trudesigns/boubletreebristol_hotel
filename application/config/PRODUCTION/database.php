@@ -18,7 +18,7 @@ return array(
             // 'database' => "doubletreebristol_com", //pita_sandbox
             // 'username' => "doubletreebristol_admin", //pita_sandbox
             // 'password' => "lXU.jZyrVWhO@qW+cUrq2N6QTzF5N%Ut", //p!taS@ndb0x
-            'hostname' => "localhost",
+            'hostname' => "184.154.228.178",
             'database' => "alldream_doubletreebristol",
             'username' => "alldream_dtreebr",
             'password' => "jd23!jsjJJUFs"

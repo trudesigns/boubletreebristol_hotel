@@ -262,7 +262,7 @@ Route::set('readfile', 'readfile(/<path>)', array('path' => '.+'))
 // ));
 // print_r($_SERVER["DOCUMENT_ROOT"]);
 
-Route::set('normal', 'DoubleTreeBristolHotel(/<page>(/<subpages>))', array('page' => '.+', 'subpages' => '.+'))
+Route::set('normal', '(/<page>(/<subpages>))', array('page' => '.+', 'subpages' => '.+'))
 ->defaults(array(
     'controller' => 'default',
     'action' => 'index'
