@@ -1,0 +1,36 @@
+.contact-form{
+  background: #f9f9f9;
+}
+
+
+.address-block {
+  li {
+    i {
+      margin-right: 15px;
+      font-size: 28px;
+      width: 25px;
+      display: inline-block;
+    }
+  }
+}
+
+
+.social-icons {
+  i{
+    color: $black;
+    font-size: 25px;
+    line-height: 25px;
+    margin-right: 15px;
+  }
+}
+
+
+
+.google-map #map {
+    width: 100%;
+    height: 300px;
+}
+
+
+
+

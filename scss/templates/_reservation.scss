@@ -1,0 +1,45 @@
+
+.section-reservation{
+ 	margin-top: -120px;
+}
+
+
+
+.datepicker {
+    padding: 18px;
+}
+
+.tp-datepicker{
+
+	.input-group-addon{
+	    position: absolute;
+	    right: 10px;
+	    top: 26%;
+	    color: #aab8ca;
+	}
+
+
+}
+
+.reserve-form{
+	.form-control{
+		padding: .75rem .75rem;
+		height:50px;
+		border: 0px;
+		border-bottom: 1px solid #ddd; 
+		box-shadow: none;
+		font-size: 14px;
+		color: $black;
+	}
+
+	.form-group{
+		margin-bottom: 0px;
+	}
+
+
+	.input-group{
+		width: 100%;
+	}
+	
+}
+

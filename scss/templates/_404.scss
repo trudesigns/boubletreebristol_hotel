@@ -1,0 +1,25 @@
+#error-page{
+	padding: 160px 0px;
+	h2{
+		font-size: 64px;
+		line-height: 85px;
+	}
+}
+
+#cta{
+	background: url("../images/backgrounds/background.jpg") fixed 50% 50%;
+	background-size: cover;
+	background-repeat:no-repeat;
+
+	.cta-box{
+		text-align: center;
+		h2{
+			font-size: 64px;
+		}
+
+		i{
+			font-size: 70px;
+			line-height: 70px;
+		}
+	}
+}

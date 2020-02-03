@@ -1,0 +1,187 @@
+.room-block{
+	background: $secondary-color;
+
+	.room-info{
+		h3{
+			font-size: 30px;
+		}
+
+		h2{
+			font-size: 38px;
+			small{
+				font-size: 14px;
+			}
+		}
+		
+		ul {
+			li{
+				span{
+					font-weight: 600;
+					color: $primary-color;
+					text-transform: capitalize;
+					margin-right: 15px;
+				}
+			}
+		}
+
+		.btn{
+			padding: 10px 20px;
+			font-size: 14px;
+			&:hover{
+				color: $light;
+			}
+		}
+
+		.btn-main{
+			border: 1px solid $primary-color;
+		}
+	}
+
+}
+
+
+.room-grid{
+	h2{
+		small{
+			font-size: 14px;
+		}
+	}
+}
+
+
+/// ROOM DETAILS INFO
+
+
+.room-details-info{
+	.room-heading{
+		h3{
+			font-size: 18px;
+
+			span{
+				font-size: 36px;
+				color: $primary-color;
+			}
+			
+		}
+
+		a.btn{
+			float: right;
+		}
+	}
+
+
+
+	ul {
+		li{
+			i{
+				color: $primary-color;
+				width: 30px;
+			}
+
+			p{
+				color: $black;
+			}
+
+			span{
+				font-weight: 600;
+			}
+		}
+	}
+}
+
+
+// Room Review PArt
+// 
+
+
+.room-details-review{
+	background: $secondary-color;
+
+	.room-details-review-item{
+		.item-img{
+			img{
+				width:90px;
+				height:90px;
+				border-radius: 100%;
+				border: 3px solid $primary-color;
+			}
+		}
+
+		.item-content{
+			h3{
+
+				span{
+					font-size: 14px;
+				}
+			}
+		}
+	}
+
+
+	.form-control{
+		font-size: 14px;
+	}
+
+}
+
+
+
+
+/// Room SIDEBAR STYLES
+/// 
+.product-sidebar{
+	h3{
+		border-bottom: 1px solid rgba(255,255,255,.2);
+		font-size: 18px;
+		letter-spacing: .05em;
+	}
+}
+.sidebar-form {
+	h6{
+		font-family: $secondary-font;
+		font-size: 12px;
+		letter-spacing: .05em;
+		font-weight: 500;
+	}
+
+	
+	.form-control {
+	    color: rgba(255,255,255,.7);
+	    border: 1px solid #afafaf;
+	    border-radius: 0px;
+	    font-size: 12px;
+	    background: transparent;
+		height:45px;
+		letter-spacing: 1px;
+	}
+
+
+	.form-check{
+		margin-bottom: 5px;
+		padding-left: 0px;
+	}
+
+	.form-check-label{
+		margin-left: 26px;
+		color: rgba(255,255,255,.7);
+		font-size: 12px;
+		letter-spacing:.5px;
+	}
+
+	input[type="checkbox"], input[type="radio"] {
+	    margin: 9px 10px 0 0;
+	}
+
+	.range_slider  label{
+		text-transform: uppercase;
+		color: $light;
+		font-size: 12px;
+	}
+
+	.range input{
+		width: 53%;
+		display: inline-block;
+	}
+}
+
+

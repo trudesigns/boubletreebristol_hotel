@@ -1,0 +1,67 @@
+.event-box{
+	
+	.event-content{
+		a{
+			color: $black;
+			font-weight: 700;
+
+			h3{
+				font-weight: 600;
+			}
+
+			&:hover{
+				color: $primary-color;
+			}
+		}
+
+		.event-date{
+			position: absolute;
+			left: 0px;
+			text-align: center;
+			background: $primary-color;
+			top:0px;
+
+			span{
+				line-height:22px;
+				font-size: 14px;
+
+			}
+
+			span.date{
+				font-size: 18px;
+			}
+		}
+	}
+	
+}
+
+.event-post-meta{
+	span{
+		margin-right: 15px;
+		font-weight: 600;
+		color: $black-lighter;
+	}
+	i{
+		margin-right: 10px;
+		color: $primary-color;
+	}
+}
+
+// SIngle EVent Details
+// 
+
+
+.single-event{
+	.event-content {
+		a{
+			color: $black;
+		}
+	}
+	.event-comment-form{
+		.form-control{
+			background: $secondary-color;
+			border-color:  $secondary-color;
+		}
+	}
+}
+

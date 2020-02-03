@@ -1,0 +1,81 @@
+
+// Homepage ABout Section
+.about-features{
+	ul{
+		li{
+			text-transform: capitalize;
+			padding: 10px;
+			font-size: 20px;
+			font-weight: 700;
+			margin-bottom: 5px;
+		}
+		i{
+			font-size: 40px;
+			margin-right: 25px;
+			font-weight: 400;
+		}
+	}
+
+		@include mobile {
+          margin-top: 40px;
+
+          	ul li{
+        		font-size: 16px;
+        	}
+        }
+        @include tablet {
+			 margin-top: 40px;
+
+          	ul li{
+        		font-size: 16px;
+        	}
+        }
+        
+}
+
+.about-block{
+	position: relative;
+
+	img{
+		width: 80%;
+	}
+
+	.about-img{
+		position: absolute;
+		content:"";
+		right: 20px;
+	    top: 14%;
+	    border: 10px solid #fff;
+	    width: 64%;
+
+		img{
+			width: 100%;
+		}
+	}
+}
+
+
+// ABout Page 
+
+
+
+.about-content{
+
+	ul {
+		li{
+			margin-bottom: 10px;
+			position: relative;
+			padding-left: 30px;
+
+			&:before{
+				content:"\f375";
+				font-family: "Ionicons";
+				position: absolute;
+				left: 0px;
+				top: 0px;
+				color: $primary-color;
+				font-size: 18px;
+			}
+		}
+	}
+}

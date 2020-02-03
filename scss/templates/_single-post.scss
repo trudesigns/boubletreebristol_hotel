@@ -1,0 +1,96 @@
+/*=================================================================
+  Single Blog Page
+==================================================================*/
+
+
+
+.post-comments {
+  background: $secondary-color;
+  border: 1px solid $border-color;
+  .media {
+    > .pull-left {
+      padding-right: 20px;
+    }
+  }
+  .comment-author {
+    font-weight:500;
+    a {
+      color: $black;
+      font-size: 14px;
+      font-weight: 700;
+    }
+  }
+  .time {
+    margin:0 0 5px;
+    display: inline-block;
+    color: #808080;
+    font-size:12px;
+  }
+  .comment-button {
+    font-size: 13px;
+    margin-left: 5px;
+    i {
+      margin-right:5px;
+      display: inline-block;
+    }
+  
+  }
+}
+
+.post-excerpt {
+  h3 {
+    a {
+      color: $black;
+    }
+  }
+  p {
+    margin: 0 0 30px;
+  }
+  blockquote.quote-post {
+    p {
+      line-height: 30px;
+      font-size: 20px;
+      color:$black;
+    }
+
+    &:before{
+      position: absolute;
+      content:"";
+      left: 0px;
+      top:0px;
+      width: 5px;
+      height:100%;
+      background: $primary-color;
+    }
+  }
+}
+
+
+@include mobile-xs {
+     .post-comments {
+        .media{
+          display: block;
+          padding: 0px!important;
+          margin: 10px 0px;
+       }
+
+       .media-body{
+          margin: 10px 0px;
+       }
+     }
+}
+  @include mobile {
+   .post-comments {
+        .media{
+        display: block;
+        padding: 0px!important;
+        margin: 10px 0px;
+       }
+
+       .media-body{
+          margin: 10px 0px;
+       }
+     }
+  }
+
+

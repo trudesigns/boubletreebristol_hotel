@@ -1,0 +1,105 @@
+.slider{
+  background: url("../images/slider-bg.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 10% 0%;
+  padding:200px 0 280px 0;
+  position: relative;
+  @extend .overly;
+  .block{
+    color: #E3E3E4;
+    text-align:center;
+    h1{
+      font-size: 45px;
+      line-height: 60px;
+      letter-spacing: 10px;
+    }
+    p{
+      margin-bottom:30px;
+      color:#b9b9b9;
+      font-size: 18px;
+      line-height: 27px;
+      font-weight: 300;
+    }
+  }
+}
+
+
+/* hero slider */
+.hero-section {
+  padding: 160px 0 270px;
+
+  @exclude .overlay;
+}
+
+.hero-slider {
+  overflow-x: hidden;
+}
+
+.hero-slider .prevArrow {
+  left: -100px;
+}
+
+.hero-slider .nextArrow {
+  right: -100px;
+}
+
+.hero-slider:hover .prevArrow {
+  left: 35px;
+}
+
+.hero-slider:hover .nextArrow {
+  right: 35px;
+}
+
+.bg-cover {
+    background-size: cover!important;
+    background-position: center center!important;
+    background-repeat: no-repeat!important;
+}
+
+.slick-slide {
+    height: 100%;
+}
+
+
+.slick-dots{
+  bottom: 20%;
+}
+
+.slick-dots li button::before{
+  color: $light;
+  font-size: 8px;
+}
+
+.slick-dots li.slick-active button::before {
+    color: $primary-color;
+    opacity: 1;
+}
+
+.hero-slider-item{
+  h4{
+    color: $light;
+  }
+  h1{
+    color: $light;
+    font-size: 80px;
+    
+        @include mobile {
+          font-size: 38px;
+        }
+       
+  }
+  p{
+    color: $light;
+    opacity: .75;
+    line-height: 30px;
+    font-size: 16px;
+  }
+}
+.letter-spacing{
+  letter-spacing:1px;
+}
+
+
+
