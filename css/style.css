@@ -44,19 +44,19 @@ iframe {
 a, .page-breadcumb i, a:focus, .page-breadcumb i:focus, a:hover, .page-breadcumb i:hover {
   text-decoration: none;
   outline: 0;
-  color: #b0914f;
+  color: #212d5b;
 }
 
 blockquote {
   font-size: 18px;
-  border-color: #b0914f;
+  border-color: #212d5b;
   padding: 20px 40px;
   text-align: left;
   color: #777;
 }
 
 .navbar-toggle .icon-bar {
-  background: #b0914f;
+  background: #212d5b;
 }
 
 input[type="email"], input[type="password"], input[type="text"], input[type="tel"] {
@@ -68,7 +68,7 @@ input[type="email"], input[type="password"], input[type="text"], input[type="tel
 
 input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focus, input[type="tel"]:focus {
   box-shadow: none;
-  border: 1px solid #b0914f;
+  border: 1px solid #212d5b;
 }
 
 .form-control {
@@ -78,7 +78,7 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
 
 .form-control:focus {
   box-shadow: none;
-  border: 1px solid #b0914f;
+  border: 1px solid #212d5b;
 }
 
 .secondary-bg {
@@ -90,7 +90,7 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
 }
 
 .text-color {
-  color: #b0914f;
+  color: #212d5b;
 }
 
 .text-dark {
@@ -116,7 +116,7 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
 }
 
 .btn-main, .btn-transparent, .btn-small {
-  background: #b0914f;
+  background: #212d5b;
   color: #fff;
   transition: all 0.2s ease;
 }
@@ -140,20 +140,20 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
 }
 
 .btn-solid-border:hover {
-  border: 1px solid #b0914f;
-  background: #b0914f;
+  border: 1px solid #212d5b;
+  background: #212d5b;
   color: #fff;
 }
 
 .btn-transparent {
   background: transparent;
   padding: 0;
-  color: #b0914f;
+  color: #212d5b;
 }
 
 .btn-transparent:hover {
   background: transparent;
-  color: #b0914f;
+  color: #212d5b;
 }
 
 .btn-large {
@@ -214,14 +214,14 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   line-height: 2.14;
   letter-spacing: 2.8px;
   text-align: center;
-  color: #b0914f !important;
+  color: #212d5b !important;
   text-transform: uppercase;
 }
 
 .section-border {
   width: 40px;
   height: 3px;
-  background-color: #b0914f;
+  background-color: #212d5b;
   margin: 0 auto;
   display: block;
 }
@@ -363,7 +363,7 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
 }
 
 .navigation .navbar .navbar-nav > li > a:hover, .navigation .navbar .page-breadcumb .navbar-nav > li > i:hover, .page-breadcumb .navigation .navbar .navbar-nav > li > i:hover, .navigation .navbar .navbar-nav > li > a:focus, .navigation .navbar .page-breadcumb .navbar-nav > li > i:focus, .page-breadcumb .navigation .navbar .navbar-nav > li > i:focus {
-  color: #b0914f;
+  color: #212d5b;
   background: transparent;
 }
 
@@ -381,7 +381,7 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
 }
 
 .navigation .navbar .dropdown-menu a:hover, .navigation .navbar .dropdown-menu .page-breadcumb i:hover, .page-breadcumb .navigation .navbar .dropdown-menu i:hover {
-  background: #b0914f;
+  background: #212d5b;
   color: #fff;
   padding-left: 25px;
 }
@@ -468,11 +468,11 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
 }
 
 .nice-select.open {
-  border-color: #b0914f;
+  border-color: #212d5b;
 }
 
 .nice-select.open span {
-  color: #b0914f;
+  color: #212d5b;
 }
 
 @media (max-width: 400px) {
@@ -598,7 +598,7 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
 }
 
 .slick-dots li.slick-active button::before {
-  color: #b0914f;
+  color: #212d5b;
   opacity: 1;
 }
 
@@ -726,7 +726,7 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   position: absolute;
   left: 0px;
   top: 0px;
-  color: #b0914f;
+  color: #212d5b;
   font-size: 18px;
 }
 
@@ -752,7 +752,7 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
 }
 
 .service-cta-text ul li span {
-  color: #b0914f;
+  color: #212d5b;
   margin-right: 10px;
   font-size: 22px;
 }
@@ -997,11 +997,11 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
 }
 
 .ed-booking-tab .nav-tabs li.active a span.ed-step-fill, .ed-booking-tab .nav-tabs li.active .page-breadcumb i span.ed-step-fill, .page-breadcumb .ed-booking-tab .nav-tabs li.active i span.ed-step-fill, .ed-booking-tab .nav-tabs li.active a:hover span.ed-step-fill, .ed-booking-tab .nav-tabs li.active .page-breadcumb i:hover span.ed-step-fill, .page-breadcumb .ed-booking-tab .nav-tabs li.active i:hover span.ed-step-fill, .ed-booking-tab .nav-tabs li.active a:focus span.ed-step-fill, .ed-booking-tab .nav-tabs li.active .page-breadcumb i:focus span.ed-step-fill, .page-breadcumb .ed-booking-tab .nav-tabs li.active i:focus span.ed-step-fill {
-  background: #b0914f;
+  background: #212d5b;
 }
 
 .ed-booking-tab .nav-tabs li.ed-done a span.ed-step, .ed-booking-tab .nav-tabs li.ed-done .page-breadcumb i span.ed-step, .page-breadcumb .ed-booking-tab .nav-tabs li.ed-done i span.ed-step {
-  border: 2px solid #b0914f;
+  border: 2px solid #212d5b;
 }
 
 .ed-booking-tab .nav-tabs li.ed-done a span.ed-step-fill, .ed-booking-tab .nav-tabs li.ed-done .page-breadcumb i span.ed-step-fill, .page-breadcumb .ed-booking-tab .nav-tabs li.ed-done i span.ed-step-fill {
@@ -1026,7 +1026,7 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
 .ed-room-select span.ed-room-select-fill {
   width: 15px;
   height: 14px;
-  background: #b0914f;
+  background: #212d5b;
   display: inline-block;
   border-radius: 50%;
   vertical-align: middle;
@@ -1101,7 +1101,7 @@ ul.ed-reservation-detail li:last-child {
 }
 
 ul.ed-reservation-detail li:first-child span:last-child {
-  color: #b0914f;
+  color: #212d5b;
 }
 
 .ed-total {
@@ -1146,7 +1146,7 @@ ul.ed-reservation-detail li:first-child span:last-child {
 
 .ed-total-price span.total-price {
   font-weight: 500;
-  color: #b0914f;
+  color: #212d5b;
   padding: 15px 0;
 }
 
@@ -1196,7 +1196,7 @@ span.policy {
 }
 
 span.policy a, span.policy .page-breadcumb i, .page-breadcumb span.policy i {
-  color: #b0914f;
+  color: #212d5b;
   text-decoration: none;
 }
 
@@ -1330,7 +1330,7 @@ input[type=checkbox], input[type=radio] {
 }
 
 .datepicker table tr td.active.active {
-  background: #b0914f;
+  background: #212d5b;
 }
 
 /*================= 2. HOME ==================*/
@@ -1507,7 +1507,7 @@ input[type=checkbox], input[type=radio] {
   top: 0;
   left: 0;
   bottom: 0;
-  background-color: #b0914f;
+  background-color: #212d5b;
   padding: 20px;
   width: 100%;
   display: none;
@@ -1800,7 +1800,7 @@ input[type=checkbox], input[type=radio] {
   -webkit-transform: rotate(-45deg);
   width: 99%;
   display: block;
-  background: #b0914f;
+  background: #212d5b;
   color: #fff;
   position: absolute;
   top: 19px;
@@ -2012,7 +2012,7 @@ input[type=checkbox], input[type=radio] {
 
 .room-block .room-info ul li span {
   font-weight: 600;
-  color: #b0914f;
+  color: #212d5b;
   text-transform: capitalize;
   margin-right: 15px;
 }
@@ -2027,7 +2027,7 @@ input[type=checkbox], input[type=radio] {
 }
 
 .room-block .room-info .btn-main, .room-block .room-info .btn-transparent, .room-block .room-info .btn-small {
-  border: 1px solid #b0914f;
+  border: 1px solid #212d5b;
 }
 
 .room-grid h2 small {
@@ -2040,7 +2040,7 @@ input[type=checkbox], input[type=radio] {
 
 .room-details-info .room-heading h3 span {
   font-size: 36px;
-  color: #b0914f;
+  color: #212d5b;
 }
 
 .room-details-info .room-heading a.btn, .room-details-info .room-heading .page-breadcumb i.btn, .page-breadcumb .room-details-info .room-heading i.btn {
@@ -2048,7 +2048,7 @@ input[type=checkbox], input[type=radio] {
 }
 
 .room-details-info ul li i {
-  color: #b0914f;
+  color: #212d5b;
   width: 30px;
 }
 
@@ -2068,7 +2068,7 @@ input[type=checkbox], input[type=radio] {
   width: 90px;
   height: 90px;
   border-radius: 100%;
-  border: 3px solid #b0914f;
+  border: 3px solid #212d5b;
 }
 
 .room-details-review .room-details-review-item .item-content h3 span {
@@ -2139,14 +2139,14 @@ input[type=checkbox], input[type=radio] {
 }
 
 .event-box .event-content a:hover, .event-box .event-content .page-breadcumb i:hover, .page-breadcumb .event-box .event-content i:hover {
-  color: #b0914f;
+  color: #212d5b;
 }
 
 .event-box .event-content .event-date {
   position: absolute;
   left: 0px;
   text-align: center;
-  background: #b0914f;
+  background: #212d5b;
   top: 0px;
 }
 
@@ -2167,7 +2167,7 @@ input[type=checkbox], input[type=radio] {
 
 .event-post-meta i {
   margin-right: 10px;
-  color: #b0914f;
+  color: #212d5b;
 }
 
 .single-event .event-content a, .single-event .event-content .page-breadcumb i, .page-breadcumb .single-event .event-content i {
@@ -2293,7 +2293,7 @@ input[type=checkbox], input[type=radio] {
   top: 0px;
   width: 5px;
   height: 100%;
-  background: #b0914f;
+  background: #212d5b;
 }
 
 @media (max-width: 400px) {
@@ -2331,9 +2331,22 @@ input[type=checkbox], input[type=radio] {
   background-attachment: fixed;
 }
 
+.bg-3 {
+  background: url("../images/backgrounds/background-events.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+.bg-4 {
+	background: url("../images/backgrounds/background-upcoming-events.png");
+	background-size: cover;
+	background-attachment: fixed;
+  }
+
 .sidebar .widget {
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05), 0 10px 30px rgba(0, 0, 0, 0.05);
-  border-top: 4px solid #b0914f;
+  border-top: 4px solid #212d5b;
 }
 
 .sidebar .widget .widget-title {
@@ -2381,7 +2394,7 @@ input[type=checkbox], input[type=radio] {
 }
 
 .sidebar .widget-category ul li a:hover, .sidebar .widget-category ul li .page-breadcumb i:hover, .page-breadcumb .sidebar .widget-category ul li i:hover {
-  color: #b0914f;
+  color: #212d5b;
   padding-left: 5px;
 }
 
@@ -2402,8 +2415,8 @@ input[type=checkbox], input[type=radio] {
 
 .sidebar .widget-tag ul li a:hover, .sidebar .widget-tag ul li .page-breadcumb i:hover, .page-breadcumb .sidebar .widget-tag ul li i:hover {
   color: #fff;
-  background: #b0914f;
-  border: 1px solid #b0914f;
+  background: #212d5b;
+  border: 1px solid #212d5b;
 }
 
 /*=================================================================
@@ -2428,7 +2441,7 @@ input[type=checkbox], input[type=radio] {
 }
 
 .post .post-title a:hover, .post .post-title .page-breadcumb i:hover, .page-breadcumb .post .post-title i:hover {
-  color: #b0914f;
+  color: #212d5b;
 }
 
 .post .post-meta {
@@ -2444,7 +2457,7 @@ input[type=checkbox], input[type=radio] {
 }
 
 .post .post-meta ul li i {
-  color: #b0914f;
+  color: #212d5b;
 }
 
 .post .post-meta ul li a, .post .post-meta ul li .page-breadcumb i, .page-breadcumb .post .post-meta ul li i {
@@ -2452,7 +2465,7 @@ input[type=checkbox], input[type=radio] {
 }
 
 .post .post-meta ul li a:hover, .post .post-meta ul li .page-breadcumb i:hover, .page-breadcumb .post .post-meta ul li i:hover {
-  color: #b0914f;
+  color: #212d5b;
 }
 
 .post .post-meta ul li:first-child {
@@ -2491,11 +2504,11 @@ input[type=checkbox], input[type=radio] {
 }
 
 .post-pagination > li > a:hover, .page-breadcumb .post-pagination > li > i:hover {
-  border: 1px solid #b0914f;
+  border: 1px solid #212d5b;
 }
 
 .post-pagination > li.active > a, .page-breadcumb .post-pagination > li.active > i {
-  border: 1px solid #b0914f !important;
+  border: 1px solid #212d5b !important;
 }
 
 .post-pagination > li:first-child > a, .page-breadcumb .post-pagination > li:first-child > i, .post-pagination > li:last-child > a, .page-breadcumb .post-pagination > li:last-child > i {
@@ -2512,7 +2525,7 @@ input[type=checkbox], input[type=radio] {
 }
 
 .blog .card-body a h3:hover, .blog .card-body .page-breadcumb i h3:hover, .page-breadcumb .blog .card-body i h3:hover {
-  color: #b0914f;
+  color: #212d5b;
 }
 
 .coming-soon {
@@ -2705,7 +2718,7 @@ input[type=checkbox], input[type=radio] {
 }
 
 .footer-widget a:hover, .footer-widget .page-breadcumb i:hover, .page-breadcumb .footer-widget i:hover {
-  color: #b0914f;
+  color: #212d5b;
 }
 
 .footer-widget .footer-address li {
@@ -2717,12 +2730,12 @@ input[type=checkbox], input[type=radio] {
 .footer-widget .footer-address li i {
   width: 40px;
   margin-right: 10px;
-  color: #b0914f;
+  color: #212d5b;
   font-size: 18px;
 }
 
 .footer-widget .footer-socials li a, .footer-widget .footer-socials li .page-breadcumb i, .page-breadcumb .footer-widget .footer-socials li i {
-  color: #b0914f;
+  color: #212d5b;
   font-size: 18px;
 }
 
